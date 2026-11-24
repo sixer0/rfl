@@ -9,3 +9,4 @@
 - DOCS-ONLY | reason: git workflow rules added under docs/, four map rows updated; documentation only | at: 2026-11-24T11:15:50Z
 - DOCS-ONLY | reason: per-row branch and worktree rule added to git workflow; documentation only | at: 2026-11-24T11:16:47Z
 - DOCS-ONLY | reason: merge-request review standards and backlog route added to git workflow; documentation only | at: 2026-11-24T11:18:58Z
+- G-SEC PASS | by: security-review | tree: 0c5f3ea6f071ca58af1292e0eaa7e1749eba9eb5 | worktree: clean | at: 2026-11-24T11:23:13Z
