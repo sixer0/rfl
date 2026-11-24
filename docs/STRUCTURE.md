@@ -15,6 +15,7 @@ Sample numbers illustrate the format and match manual Rev A values where stated.
 │  ├─ TIMELINE.md                  master schedule
 │  ├─ CODING-STANDARD.md           binding for code
 │  ├─ WORKING-RULES.md             binding for process
+│  ├─ NAVIGATION.md                where anything lives, reading paths
 │  ├─ GLOSSARY.md                  this vocabulary
 │  ├─ STRUCTURE.md                 this file
 │  ├─ manual/                      one Markdown per chapter, 01…37
