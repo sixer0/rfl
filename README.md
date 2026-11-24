@@ -46,6 +46,8 @@ Each folder carries one `TICKETS.md`: numbered tickets, each with its own work c
 - Every ticket row becomes one task card `C-nnnn` in `docs/cards/`; agents work only from cards.
 - Changes go through `CR-nn` in `docs/decisions/changes/`; decisions log as `DN-nnn`.
 - Severity S1 same day, S2 next build, S3 next edition; after G4 only S1.
+- Every commit stays green on the pipeline watchdog (`bash tools/watchdog.sh`), run by CI
+  on push and pull request; merge needs zero HIGH/CRITICAL findings, minors to backlog.
 
 Full rules: `docs/WORKING-RULES.md`. Vocabulary: `docs/GLOSSARY.md`.
 
