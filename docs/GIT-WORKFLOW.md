@@ -87,8 +87,11 @@ Check: tools/run-tests.sh -> EditMode 214 passed, determinism hash equal on both
 - One PR per card; split oversized PRs before review.
 - The holding adult reviews line by line; behaviour not named by the card is rejected at
   review (rule 9).
-- CI green on Linux (GameCI), each Mac and the Windows IL2CPP runner is a merge
-  requirement (rule 11).
+- CI green is a merge requirement (rule 11). The pipeline watchdog runs on every push
+  and pull request through `.github/workflows/ci.yml`: relative links resolve, ticket
+  files keep the standard shape, the mission pointer is set, and the latest G-SEC verdict
+  is PASS or an accepted CAUTION. Run it locally before pushing: `bash tools/watchdog.sh`.
+  Unity suites attach through `tools/run-tests.sh` once APP-002 lands.
 - Merge requires a clean review: zero HIGH and zero CRITICAL findings across code review
   (structure, duplication, dependency impact) and security review (secrets, injection,
   permission escalation). Both verdicts are quoted in the PR body; an open HIGH or

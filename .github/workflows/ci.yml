@@ -1,0 +1,13 @@
+name: pipeline-watchdog
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  watchdog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run pipeline watchdog
+        run: bash tools/watchdog.sh

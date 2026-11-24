@@ -34,7 +34,8 @@ Sample numbers illustrate the format and match manual Rev A values where stated.
 │  ├─ data/                        tuning.json, moves.csv
 │  ├─ ledger.csv                   asset census with AST ids
 │  └─ Art/Generated/PROVENANCE.md  generated-asset ledger
-└─ tools/                          run-tests.sh         single test entry point
+├─ .github/workflows/ci.yml        pipeline watchdog on every push and PR
+└─ tools/                          watchdog.sh checks; run-tests.sh test entry
 ```
 
 Naming: folders as shown; card and CR files zero-pad as in their ID (`C-0007.md`,
