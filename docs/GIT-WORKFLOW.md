@@ -89,6 +89,18 @@ Check: tools/run-tests.sh -> EditMode 214 passed, determinism hash equal on both
   review (rule 9).
 - CI green on Linux (GameCI), each Mac and the Windows IL2CPP runner is a merge
   requirement (rule 11).
+- Merge requires a clean review: zero HIGH and zero CRITICAL findings across code review
+  (structure, duplication, dependency impact) and security review (secrets, injection,
+  permission escalation). Both verdicts are quoted in the PR body; an open HIGH or
+  CRITICAL keeps the PR out of main.
+- Reversible by standard: one concern per PR, small enough to revert as a single commit.
+  Rename-only changes land separately from behaviour changes; a revert of one card must
+  not touch another card's output. If a PR cannot be described in one sentence of "what
+  it changes", split it before review.
+- MINOR findings never block the merge: each one becomes a bullet in
+  `docs/state/backlog.md` with its file:line and finder, one line per finding. Backlog
+  items are triaged in the next tuning window and must be closed or dated before the
+  next gate.
 
 ## Merging
 
