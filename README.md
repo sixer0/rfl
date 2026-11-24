@@ -22,7 +22,8 @@ are filled at the Monday stand-up.
 | `docs/` | Timeline, task cards, decision log, evidence packs, provenance | Budi (BUD), Andy (AND) for gates |
 
 Each folder carries one `TICKETS.md`: numbered tickets, each with its own work checklist
-(one box per line) and an empty `Assignee:` field. `docs/TIMELINE.md` is the master schedule.
+(one box per line) and an empty `Assignee:` field. `docs/TIMELINE.md` is the master schedule;
+`docs/CODING-STANDARD.md` binds all code; `docs/WORKING-RULES.md` binds how work moves.
 
 ## How work moves
 
