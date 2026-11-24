@@ -7,3 +7,4 @@
 - DOCS-ONLY | reason: SDLC mandatory rules and workflow added under docs/, three map rows updated; documentation only | at: 2026-11-24T11:09:53Z
 - DOCS-ONLY | reason: upstream repo renamed gsp to rfl, doc references updated; documentation only | at: 2026-11-24T11:11:13Z
 - DOCS-ONLY | reason: git workflow rules added under docs/, four map rows updated; documentation only | at: 2026-11-24T11:15:50Z
+- DOCS-ONLY | reason: per-row branch and worktree rule added to git workflow; documentation only | at: 2026-11-24T11:16:47Z

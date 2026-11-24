@@ -20,15 +20,33 @@ git remote add swarm https://github.com/sixer0/swarm.git
 
 Daily work happens on `swarm` branches; `origin/main` only takes merges and gate approvals.
 
-## Branches
+## Branches and worktrees
 
-- One branch per card, named `<area>-<ticket>-<slug>`, lowercase, hyphenated:
-  `app-010-training-reset`, `art-004-locomotion-clips`, `story-005-tuning-freeze`,
-  `doc-003-decision-trail`. Manual edits keep the fixed form `manual-cr-nn` (SDLC rule 19).
-- Branches start from the newest upstream: `git fetch origin`, then create from
-  `origin/main`.
-- A branch lives while its card is open; after merge it is deleted on both remotes.
-- No long-lived branches except `main`. Rebase your own branch freely.
+Every work row runs in its own branch, in its own worktree. Two rows never share a branch;
+one branch never carries boxes from two cards. This keeps each overnight queue isolated:
+a seat can run three cards at once without stashing or mixing diffs.
+
+- One branch per ticket row (one card `C-nnnn`), named `<area>-<ticket>-<slug>`, lowercase,
+  hyphenated: `app-010-training-reset`, `art-004-locomotion-clips`,
+  `story-005-tuning-freeze`, `doc-003-decision-trail`. Manual edits keep the fixed form
+  `manual-cr-nn` (SDLC rule 19).
+- Branches start from the newest upstream, together with their worktree:
+
+```bash
+git fetch origin
+git worktree add ../wt-app-010-reset -b app-010-training-reset origin/main
+```
+
+- Work the whole card inside that worktree; push at natural breaks.
+- After merge, clean up branch and worktree on both remotes:
+
+```bash
+git worktree remove ../wt-app-010-reset
+git branch -d app-010-training-reset
+```
+
+- A branch lives exactly as long as its card; no long-lived branches except `main`.
+  Rebase your own branch freely; it belongs to one card only.
 
 ## Commits
 
