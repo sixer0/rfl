@@ -11,7 +11,7 @@ Assignee:
 
 - [x] Four workstream folders with one TICKETS.md each
 - [x] README with structure and milestone statement
-- [x] Push upstream to gsp, mirror to swarm
+- [x] Push upstream to rfl, mirror to swarm
 - [ ] Link the board from the repo description
 
 ## DOC-002 · Task cards from tickets

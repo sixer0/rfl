@@ -50,5 +50,5 @@ Full rules: `docs/WORKING-RULES.md`. Vocabulary: `docs/GLOSSARY.md`.
 
 ## Repository pair
 
-`gsp` is the upstream repo; `swarm` is its fork for in-flight branches. Push working
-branches to `swarm`, open pull requests from there into `gsp`. Never force-push `gsp` main.
+`rfl` is the upstream repo; `swarm` is its fork for in-flight branches. Push working
+branches to `swarm`, open pull requests from there into `rfl`. Never force-push `rfl` main.

@@ -88,7 +88,7 @@ humans and agents alike.
 
 ## Repository pair workflow
 
-- `gsp` is upstream: main is protected, merges only by pull request from `swarm`.
-- `swarm` holds in-flight branches; rebase freely, never force-push `gsp` main.
+- `rfl` is upstream: main is protected, merges only by pull request from `swarm`.
+- `swarm` holds in-flight branches; rebase freely, never force-push `rfl` main.
 - Commit style: imperative subject under 72 chars ("Add determinism hash test"), body
   links the card ID. Gate approvals use the exact `gate: Gn approved` form.

@@ -77,7 +77,7 @@ and Andy together (see rule 17).
     adds the file; licence column never empty; music passes a Content ID check.
 22. Commit style follows STRUCTURE.md: imperative subject under 72 chars, body links the
     card, check output quoted. Only human gate approvals start with `gate:`.
-23. `gsp` main is protected: branches live on `swarm`, merges only by pull request, no
+23. `rfl` main is protected: branches live on `swarm`, merges only by pull request, no
     force-push to main. Link check runs at every gate; a broken relative link is an S2 CR.
 
 ## Workflow
