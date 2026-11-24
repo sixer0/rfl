@@ -25,6 +25,7 @@ the only entry point; this file is the map behind it. Binding for humans and Cla
 | How code must look | `docs/CODING-STANDARD.md` | sections by layer |
 | How work moves, roles, hours | `docs/WORKING-RULES.md` | owner codes RAF/ORY/BUD/AND |
 | Non-negotiable process rules | `docs/SDLC.md` | numbered rules 1–23 |
+| How to commit, branch, push, merge, tag | `docs/GIT-WORKFLOW.md` | sections by action |
 | Artifact templates with samples | `docs/STRUCTURE.md` | one section per artifact |
 | Any term or abbreviation | `docs/GLOSSARY.md` | alphabetical-ish groups |
 | Why something was decided | `docs/decisions/decision-log.md` | DN-nnn, newest on top |

@@ -24,6 +24,7 @@ blank; they are filled at the Monday stand-up.
 | 6 | [docs/STRUCTURE.md](docs/STRUCTURE.md) | Exact shape of every artifact, with filled samples |
 | ref | [docs/GLOSSARY.md](docs/GLOSSARY.md) | Meaning of any term used here |
 | ref | [docs/NAVIGATION.md](docs/NAVIGATION.md) | Where anything lives; full navigation rules |
+| ref | [docs/GIT-WORKFLOW.md](docs/GIT-WORKFLOW.md) | Commit, branch, push and merge rules for the repo pair |
 
 ## Folder map
 

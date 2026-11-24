@@ -90,5 +90,6 @@ humans and agents alike.
 
 - `rfl` is upstream: main is protected, merges only by pull request from `swarm`.
 - `swarm` holds in-flight branches; rebase freely, never force-push `rfl` main.
+- Full commit, push, merge and tag rules: `docs/GIT-WORKFLOW.md`.
 - Commit style: imperative subject under 72 chars ("Add determinism hash test"), body
   links the card ID. Gate approvals use the exact `gate: Gn approved` form.

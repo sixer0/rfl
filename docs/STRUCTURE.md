@@ -16,6 +16,7 @@ Sample numbers illustrate the format and match manual Rev A values where stated.
 │  ├─ CODING-STANDARD.md           binding for code
 │  ├─ WORKING-RULES.md             binding for process
 │  ├─ SDLC.md                      mandatory rules and workflow order
+│  ├─ GIT-WORKFLOW.md              commit, push, branch and merge rules
 │  ├─ NAVIGATION.md                where anything lives, reading paths
 │  ├─ GLOSSARY.md                  this vocabulary
 │  ├─ STRUCTURE.md                 this file
