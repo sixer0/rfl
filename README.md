@@ -20,7 +20,8 @@ blank; they are filled at the Monday stand-up.
 | 2 | Your folder's TICKETS.md: [art](art/TICKETS.md) · [story](story/TICKETS.md) · [apps](apps/TICKETS.md) · [docs](docs/TICKETS.md) | What to do next: numbered tickets with work checklists |
 | 3 | [docs/CODING-STANDARD.md](docs/CODING-STANDARD.md) | How code must look: determinism, data-vs-code, budgets, style, tests |
 | 4 | [docs/WORKING-RULES.md](docs/WORKING-RULES.md) | How work moves: roles and seats, hours, cards, gates, CR path, evidence |
-| 5 | [docs/STRUCTURE.md](docs/STRUCTURE.md) | Exact shape of every artifact, with filled samples |
+| 5 | [docs/SDLC.md](docs/SDLC.md) | Mandatory rules and workflow order that no one may break during development |
+| 6 | [docs/STRUCTURE.md](docs/STRUCTURE.md) | Exact shape of every artifact, with filled samples |
 | ref | [docs/GLOSSARY.md](docs/GLOSSARY.md) | Meaning of any term used here |
 | ref | [docs/NAVIGATION.md](docs/NAVIGATION.md) | Where anything lives; full navigation rules |
 

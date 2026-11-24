@@ -4,3 +4,4 @@
 - DOCS-ONLY | reason: coding standard and working rules added under docs/, README pointer updated; documentation only | at: 2026-11-24T11:03:42Z
 - DOCS-ONLY | reason: glossary and structure standard with samples added under docs/, README pointer updated; documentation only | at: 2026-11-24T11:06:06Z
 - DOCS-ONLY | reason: README rewritten as entry point and navigation rules added; documentation only | at: 2026-11-24T11:07:47Z
+- DOCS-ONLY | reason: SDLC mandatory rules and workflow added under docs/, three map rows updated; documentation only | at: 2026-11-24T11:09:53Z
