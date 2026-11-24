@@ -1,17 +1,88 @@
-# Story tickets — lead Rafif (RAF); values become data, never code
+# Story tickets — MVP week milestone
 
-The story lane owns the game baseline: pitch, pillars, move list, fight rules, tuning set,
-tutorial script, identity notes. Code holds the rules, data holds the values
-(`tuning.json`, `moves.csv`); tuning happens in the day-plan tuning windows with evidence.
+Milestone (week of 24 Nov 2026): story owns the specs and tuning data behind the menu
+layout and training mode. Values become data (`tuning.json`, `moves.csv`), never code;
+tuning happens in the tuning windows with evidence. Assignees stay blank until the Monday
+stand-up. One ticket = one task card `C-nnnn` in `docs/cards/`; tick boxes per line.
 
-| ID | Title | Owner | Window | Depends | Done when |
-|---|---|---|---|---|---|
-| STO-001 | One-page pitch and three pillars with review tests | RAF | D−28→D−25 | — | Every feature review ends yes/no against one test: weight reads without sound or HUD; damage visible at a paused frame; an Indonesian detail named per feature |
-| STO-002 | Move list: 14 normals, 2 strings, 1 launcher, 1 throw, 3 tech moves, full frame data | RAF | D−25→D−18 | STO-001 | Every row carries startup, active, recovery, hit level, reach, on block, on hit, damage, costs; clip lengths derivable from rows |
-| STO-003 | Risk chart: plot every move by damage against on-block; name the fastest punish per row | RAF | D−18→D−14 | STO-002 | No move is both high damage and safe; one-two-roundhouse on the watch list; every move names at least one defence that beats it |
-| STO-004 | Fight rules spec: best of 5, rounds of 90 s, KO/submission/time-out endings, carry-over, corner break, juggle cap 2 at 20% HP, parry fresh-press only (6/5/4 f, lockout 8 f), throw 3 f / break 12 f, submission lock read 30 f ±20 stamina | RAF | D−14→D−10 | STO-002 | Rules match Tables 2.4–2.6; round timer pauses during hit-stop; wake-up invulnerable first 6 f |
-| STO-005 | Tuning set frozen as starting values: damage ×1.5, POWER ×1.10/+4 f, SPEED ×0.92/−1 f, HP 1550/1708/1386, stamina regen 2.5%/s, groggy 40 f, OVERLOAD stall 90 f +25%, hit-stop 4 f/8 f, pushback 0.3/0.4 m, part pools 35/50/25/25/35% | RAF | D−10→D−6 | STO-004 | Values entered in `tuning.json` + `moves.csv`; CI guard finds 0 tuning numbers in fight code |
-| STO-006 | Tutorial script: five steps from movement to a short sparring round, with the sparring-unit partner | RAF | D−10→D−4 | STO-004 | A first-time player finishes all five steps without a hint; step strings ≤ 15 keys in ID and EN |
-| STO-007 | Indonesian identity notes: league framing, ring place, two-language rule for every string | RAF | D−7→D0 | STO-001 | Every UI string exists in ID and EN; any feature that could sit unchanged anywhere else is cut or annotated with its Indonesian detail |
-| STO-008 | Playtest protocol: forms, blind A/B of heavy hit-stop 8 f vs 6 f before G2, comeback-rate and time-out checks against the bands | RAF | before G2 | STO-005 | Hit-stop choice recorded with evidence in the decision log; time-outs ≈ 18% (flag > 30%), comeback rate ≈ 24%, OVERLOAD ≈ 2/match, mirror match ≤ 55% per side over 1,000 bot matches |
-| STO-009 | Baseline freeze hand-off: approve importer report against Tables 2.4–2.6 | RAF + AND | D−2→D0 | STO-005, STO-006 | Andy commits `gate: G0 approved`; tag `baseline-1` on the G0 commit; POWER/SPEED rows marked future for the first update |
+## STO-001 · Pitch and pillars one-pager
+Window: day 1 · Depends: — · Done when: every feature review this week ends yes/no against one pillar test
+Assignee:
+
+- [ ] Three-sentence pitch from the approved workbook
+- [ ] Weight and impact test: a heavy hit reads from motion alone with sound muted
+- [ ] Damage-you-can-see test: name the most damaged part at a paused frame without the HUD
+- [ ] Indonesian identity test: name the detail a screen carries; if none, cut or annotate
+
+## STO-002 · Move list with full frame data
+Window: day 1–2 · Depends: STO-001 · Done when: every row complete; clip lengths derivable from rows alone
+Assignee:
+
+- [ ] 14 normals, 2 strings, 1 launcher, 1 throw, 3 tech moves
+- [ ] Columns: startup, active, recovery, hit level, reach, on block, on hit, damage, stamina cost
+- [ ] Launcher at −13 on block, punished by the 8 f jab
+- [ ] Haymaker as the unblockable example against sidestep
+
+## STO-003 · Risk chart and punish notes
+Window: day 2–3 · Depends: STO-002 · Done when: no move is both high damage and safe; every move names one defence that beats it
+Assignee:
+
+- [ ] Plot damage against on-block for every move
+- [ ] Name the fastest punish per row, or mark safe
+- [ ] Flag the one-two-roundhouse on the watch list
+- [ ] Check the chart has no unanswerable move
+
+## STO-004 · Fight rules spec
+Window: day 3 · Depends: STO-002 · Done when: rules match manual Tables 2.4–2.6 with no gaps
+Assignee:
+
+- [ ] Best of 5, first to 3, rounds of 90 s
+- [ ] Round ends on KO, submission, or larger share of max HP at time-out; no judges
+- [ ] HP, part damage and stamina carry between rounds
+- [ ] Corner break heals 30% of lost HP; KO floor 40%
+- [ ] Juggle cap 2 hits at 20% of max HP
+- [ ] Parry fresh press only, 6/5/4 f by weight, lockout 8 f
+- [ ] Round timer pauses during hit-stop; wake-up invulnerable first 6 f
+
+## STO-005 · Tuning set frozen as data
+Window: day 3–4 · Depends: STO-004 · Done when: values live in tuning.json and moves.csv; CI guard finds 0 tuning numbers in fight code
+Assignee:
+
+- [ ] Damage x1.5; STANDARD HP 1550, stamina pool 1000
+- [ ] Stamina regen 2.5%/s, x1.5 blocking; low-stamina line 20%
+- [ ] Groggy 40 f; OVERLOAD build 6–20%, drain 3%/s after 1.5 s, stall 90 f +25% damage taken
+- [ ] Hit-stop light 4 f / heavy 8 f; pushback 0.3/0.4 m
+- [ ] Part pools 35/50/25/25/35%; arm chip on block 15%
+- [ ] POWER and SPEED rows stored marked future for the first update
+
+## STO-006 · Training-mode spec
+Window: day 4 · Depends: STO-004 · Done when: every base mechanic has a named way to show it inside training mode
+Assignee:
+
+- [ ] Infinite-round toggle
+- [ ] Dummy presets: idle, blocks seen hits, punishes minus moves
+- [ ] Frame-data panel fields: startup, active, recovery, on block, on hit
+- [ ] Input history strip for both sides
+- [ ] Instant reset behaviour defined
+- [ ] Walk the APP-007 to APP-009 list and confirm each mechanic is demonstrable
+
+## STO-007 · Menu copy in ID and EN
+Window: day 5–6 · Depends: STO-001 · Done when: string-table test reports 0 missing keys in either language
+Assignee:
+
+- [ ] Title, mode names, settings labels
+- [ ] Pause and credits lines
+- [ ] Move names shown in the frame-data panel
+- [ ] Controller prompt wording for pad and keyboard
+- [ ] Every string in Bahasa Indonesia and English
+
+## STO-008 · MVP playtest protocol
+Window: day 7 · Depends: STO-006 · Done when: the review meeting runs on this form only
+Assignee:
+
+- [ ] One scripted round per pillar with yes/no notes
+- [ ] Time-out rate about 18% over 1,000 bot matches (flag over 30%)
+- [ ] Comeback rate about 24%
+- [ ] OVERLOAD triggers about 2 per match (flag under 1)
+- [ ] Mirror match wins ≤ 55% per side
+- [ ] Optional blind A/B: heavy hit-stop 8 f vs 6 f, recorded with evidence

@@ -1,20 +1,67 @@
-# Docs tickets — lead Budi (BUD), gate records by Andy's seat (AND, C-AND)
+# Docs tickets — MVP week milestone
 
-Docs holds the timeline, the manual's Markdown source, the decision trail and the gate
-evidence. Repository paths follow Chapter 13 exactly; the path table there is the only
-list of paths. The progress page is generated from cards, never typed.
+Milestone (week of 24 Nov 2026): docs carries the board mechanics around the MVP: cards,
+decision trail, evidence pack, provenance. Repository paths follow Chapter 13 exactly;
+the progress page is generated from cards, never typed. Assignees stay blank until the
+Monday stand-up. One ticket = one task card `C-nnnn` in `docs/cards/`; tick boxes per line.
 
-| ID | Title | Owner | Window | Depends | Done when |
-|---|---|---|---|---|---|
-| DOC-001 | Repository skeleton: README, four workstream folders, `.gitignore`, `docs/` layout per Chapter 13 | BUD | D−28 | — | Fresh clone opens without warnings; four TICKETS.md present |
-| DOC-002 | Import the Production Manual as Markdown under `docs/manual/`, one file per chapter (files 01–37) | BUD + C-BUD | D−27→D−25 | DOC-001 | Every chapter file loads; TOC links resolve; PDF rebuilds from the same files |
-| DOC-003 | First reading round: each reader marks unclear lines, issues sorted by severity, one 60-minute review | ALL | D−26→D−25 | DOC-002 | Three "read and know my first three tasks" lines in the review minutes by D−25 |
-| DOC-004 | Decision log and templates: `decision-log.md` (DN-nnn), `changes/CR-nn.md`, `open-questions.md`, task-card format C-nnnn | BUD | D−24→D−21 | DOC-001 | One test CR passes the full change path end to end by D−20; open-questions file exists and is empty at D0 |
-| DOC-005 | Record the Director decisions and all 12 framing decisions with decider, options, evidence, choice, revisit condition | AND + BUD | D−21→D0 | DOC-004 | Entries exist for the four Table 1.11 items by their dates; G0 pack shows 12 of 12 FM rows confirmed or dated |
-| DOC-006 | CLAUDE.md manual block + deny-edit rule in `.claude/settings.json` | BUD + C-BUD | by D−7 | DOC-002 | A test session editing `docs/manual/` is refused by the settings file; sessions load only the card's chapter |
-| DOC-007 | Gate evidence packs: `docs/reports/gate-G0.md` … `gate-G7.md`, written by the gate auditor on Andy's seat, then stop | AND + C-AND | each gate | DOC-005 | Every gate closes with a pack; approval is a human commit `gate: Gn approved` |
-| DOC-008 | Generated progress page from task-card status, with census counts from the asset ledger | BUD + C-BUD | weekly from D1 | DOC-004 | Page rebuilt by script at each gate; no hand-typed counts |
-| DOC-009 | Asset provenance: every generated or bought asset logged in `PROVENANCE.md` with tool, prompt/reference, licence, holder | ORY | ongoing from Phase 0 | DOC-001 | Every file under Generated has one provenance row; licence column filled for all shipped items |
-| DOC-010 | Change-note log: what, why, impact, CR number per change; S3 held for Edition 2 | BUD | ongoing | DOC-004 | Index lists every merged CR with its note; `git log -- docs/manual/` shows only `manual-cr-` merges |
-| DOC-011 | Facts register upkeep: re-check every "to verify" row before D1; close or date each | AND + BUD | before D1 | DOC-005 | Annex G status column has no undated open rows at G0 |
-| DOC-012 | Hand-over pack at G7: review minutes, metrics summary, first-update scope, next-window plan | ALL | D44 | DOC-007 | G7 pack complete; paid-release plan references it as its base |
+## DOC-001 · Repository skeleton and board
+Window: day 1 · Depends: — · Done when: fresh clone opens without warnings; four TICKETS.md present
+Assignee:
+
+- [x] Four workstream folders with one TICKETS.md each
+- [x] README with structure and milestone statement
+- [x] Push upstream to gsp, mirror to swarm
+- [ ] Link the board from the repo description
+
+## DOC-002 · Task cards from tickets
+Window: day 1 · Depends: — · Done when: every ticket row has one card file naming its chapter and stop point
+Assignee:
+
+- [ ] One file per ticket under docs/cards/ as C-nnnn
+- [ ] Card names the manual chapter it implements
+- [ ] Card names its stop point and its check
+- [ ] Night queue loads cards at 18:00 owner-seat time
+
+## DOC-003 · Decision trail
+Window: day 1–2 · Depends: — · Done when: one test CR passes the full change path end to end
+Assignee:
+
+- [ ] docs/decisions/decision-log.md with DN-nnn entries
+- [ ] docs/decisions/changes/CR-nn.md template
+- [ ] docs/decisions/open-questions.md exists and stays empty at day close
+- [ ] Change note line for every merged CR: what, why, impact, CR number
+
+## DOC-004 · Agent configuration
+Window: day 2 · Depends: DOC-002 · Done when: a test session editing docs/manual/ is refused by the settings file
+Assignee:
+
+- [ ] CLAUDE.md manual block per Listing 1.1
+- [ ] Deny Edit(./docs/manual/) in .claude/settings.json
+- [ ] Sessions load section 1.2, Chapter 2, and only the card's chapter
+- [ ] Gate approval stays human: agents write the pack and stop
+
+## DOC-005 · Evidence pack template and MVP pack
+Window: day 3, filled at day 7 · Depends: DOC-003 · Done when: docs/reports/gate-MVP.md holds counts, captures and a human outcome
+Assignee:
+
+- [ ] Pack template: counts, captures, outcome, approver line
+- [ ] Counts versus census: clips, cues, string keys, screens
+- [ ] Profiler capture link from APP-014
+- [ ] Outcome committed by a human: pass, pass with conditions, fix list or stop
+
+## DOC-006 · Generated progress page
+Window: day 2 onward, every morning · Depends: DOC-002 · Done when: page rebuilt by script; no hand-typed counts
+Assignee:
+
+- [ ] Script counts card statuses in docs/cards/
+- [ ] Runs each morning on the owner's seat
+- [ ] Writes docs/state/progress.md
+
+## DOC-007 · Asset provenance
+Window: ongoing from day 2 · Depends: — · Done when: every generated or bought asset has one row
+Assignee:
+
+- [ ] Assets/_Project/Art/Generated/PROVENANCE.md created
+- [ ] Row per file: tool, prompt or reference, licence, rights holder
+- [ ] Licence filled for every shipped item

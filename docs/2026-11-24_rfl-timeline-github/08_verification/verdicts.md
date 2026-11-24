@@ -1,2 +1,3 @@
 - G-SEC PASS | by: security-review | tree: d233c26a0a90b3ada5c032e3a3e203779a76335e | worktree: clean | at: 2026-11-24T10:42:29Z
 - DOCS-ONLY | reason: verification report and verdict file added under the mission folder; documentation only, no code | at: 2026-11-24T10:43:38Z
+- DOCS-ONLY | reason: ticket files rewritten with per-ticket checklists and blank assignees for the MVP week; documentation only | at: 2026-11-24T10:52:42Z
