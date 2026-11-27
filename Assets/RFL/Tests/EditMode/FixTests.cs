@@ -142,6 +142,75 @@ namespace RFL.Tests
         }
 
         [Test]
+        public void FromRatio_TruncatesTowardZero()
+        {
+            Assert.AreEqual(98304L, Fix.FromRatio(3, 2).Raw);
+            Assert.AreEqual(21845L, Fix.FromRatio(1, 3).Raw);
+            Assert.AreEqual(-21845L, Fix.FromRatio(-1, 3).Raw);
+        }
+
+        [Test]
+        public void FromMilli_ConvertsMillimetresToMetres()
+        {
+            Assert.AreEqual(Fix.FromRatio(3, 2), Fix.FromMilli(1500));
+            Assert.AreEqual(-16384L, Fix.FromMilli(-250).Raw);
+            Assert.AreEqual(65L, Fix.FromMilli(1).Raw);
+        }
+
+        [Test]
+        public void MulByInt_ScalesExactly()
+        {
+            Assert.AreEqual(Fix.FromInt(-6), Fix.FromInt(3) * -2);
+            Assert.AreEqual(Fix.FromMilli(-250), Fix.FromMilli(250) * -1);
+        }
+
+        [Test]
+        public void DivByInt_TruncatesTowardZero()
+        {
+            Assert.AreEqual(229376L, (Fix.FromInt(7) / 2).Raw);
+            Assert.AreEqual(0L, (Fix.FromRaw(-1) / 2).Raw);
+        }
+
+        [Test]
+        public void Abs_DropsTheSign()
+        {
+            Assert.AreEqual(Fix.FromInt(3), Fix.Abs(Fix.FromInt(-3)));
+            Assert.AreEqual(Fix.FromInt(3), Fix.Abs(Fix.FromInt(3)));
+            Assert.AreEqual(Fix.Zero, Fix.Abs(Fix.Zero));
+        }
+
+        [Test]
+        public void Clamp_KeepsTheValueInsideTheRange()
+        {
+            Fix low = Fix.Zero;
+            Fix high = Fix.FromInt(3);
+            Assert.AreEqual(high, Fix.Clamp(Fix.FromInt(5), low, high));
+            Assert.AreEqual(low, Fix.Clamp(Fix.FromInt(-1), low, high));
+            Assert.AreEqual(Fix.FromInt(2), Fix.Clamp(Fix.FromInt(2), low, high));
+        }
+
+        [Test]
+        public void RoundToInt_RoundsHalfUp()
+        {
+            Assert.AreEqual(2, Fix.FromMilli(1500).RoundToInt());
+            Assert.AreEqual(1, Fix.FromMilli(1499).RoundToInt());
+            Assert.AreEqual(3, Fix.FromMilli(2500).RoundToInt());
+            Assert.AreEqual(-1, Fix.FromMilli(-1500).RoundToInt());
+            Assert.AreEqual(-2, Fix.FromMilli(-1501).RoundToInt());
+        }
+
+        [Test]
+        public void ToMilli_RoundTripsWholeMillimetres()
+        {
+            foreach (int milli in new[] { 1500, -250, 1, -1, 123 })
+            {
+                Assert.AreEqual(milli, Fix.FromMilli(milli).ToMilli(), milli + " mm");
+            }
+            Assert.AreEqual(0, Fix.FromRaw(1).ToMilli());
+            Assert.AreEqual(0, Fix.FromRaw(-1).ToMilli());
+        }
+
+        [Test]
         public void ToString_NeverPrintsMinusZero()
         {
             Assert.AreEqual("0.000", Fix.FromRaw(1).ToString());
