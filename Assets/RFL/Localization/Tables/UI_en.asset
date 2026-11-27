@@ -1,0 +1,611 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: dc7352cf9ab974c52ac357c4ba9387e3, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 288350208
+    m_Localized: ROBOT FIGHTING LEAGUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296738816
+    m_Localized: INDONESIAN ROBOT BOXING LEAGUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296738817
+    m_Localized: Press any button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296738818
+    m_Localized: Version {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933120
+    m_Localized: Main menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933121
+    m_Localized: Versus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933122
+    m_Localized: Fight another player or the CPU.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933123
+    m_Localized: Training
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933124
+    m_Localized: Practise against a training dummy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933125
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933126
+    m_Localized: Language, sound and display.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933127
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933128
+    m_Localized: Close the game.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933129
+    m_Localized: Choose your opponent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933130
+    m_Localized: Player vs Player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933131
+    m_Localized: Two players, two devices.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933132
+    m_Localized: Player vs CPU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933133
+    m_Localized: Fight a computer-controlled robot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933134
+    m_Localized: Difficulty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933135
+    m_Localized: Easy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933136
+    m_Localized: The CPU reacts slowly and rarely blocks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933137
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933138
+    m_Localized: The CPU blocks and punishes big mistakes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933139
+    m_Localized: Hard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933140
+    m_Localized: The CPU is fast, blocks and uses long combos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933141
+    m_Localized: Choose your robot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933142
+    m_Localized: Choose the CPU's robot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933143
+    m_Localized: Choose the dummy's robot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933144
+    m_Localized: P1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933145
+    m_Localized: P2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933146
+    m_Localized: CPU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933147
+    m_Localized: Training dummy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933148
+    m_Localized: Press {0} on another device to join
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933149
+    m_Localized: Ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933150
+    m_Localized: Light class
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933151
+    m_Localized: Middle class
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933152
+    m_Localized: Heavy class
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933153
+    m_Localized: HP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933154
+    m_Localized: Stamina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933155
+    m_Localized: Agility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933156
+    m_Localized: Power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933157
+    m_Localized: OVERLOAD resist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933158
+    m_Localized: TECH MOVES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933159
+    m_Localized: '{0:N0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933160
+    m_Localized: STANDARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933161
+    m_Localized: POWER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933162
+    m_Localized: SPEED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933163
+    m_Localized: Body Blow Combo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933164
+    m_Localized: Uppercut Combo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933165
+    m_Localized: Ducking Counter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933166
+    m_Localized: Rushing Straight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933167
+    m_Localized: Haymaker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933168
+    m_Localized: Low Kick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933169
+    m_Localized: Clinch Throw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933170
+    m_Localized: Hook Flurry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933171
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933172
+    m_Localized: Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933173
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933174
+    m_Localized: Display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933175
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933176
+    m_Localized: Bahasa Indonesia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933177
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933178
+    m_Localized: Master volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933179
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933180
+    m_Localized: Effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933181
+    m_Localized: Interface
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933182
+    m_Localized: Window mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933183
+    m_Localized: Borderless fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933184
+    m_Localized: Windowed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933185
+    m_Localized: Exclusive fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933186
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933187
+    m_Localized: VSync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933188
+    m_Localized: On
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933189
+    m_Localized: Off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933190
+    m_Localized: Restore defaults
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933191
+    m_Localized: Press {0} to apply
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933192
+    m_Localized: Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933193
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933194
+    m_Localized: Change
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933195
+    m_Localized: Switch tab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933196
+    m_Localized: Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933197
+    m_Localized: Arrows
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933198
+    m_Localized: D-pad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933199
+    m_Localized: Quit the game?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933200
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933201
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933202
+    m_Localized: GREY BOX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933204
+    m_Localized: Paused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933205
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933206
+    m_Localized: Robot select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933207
+    m_Localized: Main menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591450107904
+    m_Localized: Jab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591458496512
+    m_Localized: Cross
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591458496513
+    m_Localized: Uppercut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591458496514
+    m_Localized: Straight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591458496515
+    m_Localized: "{0} HITS \xB7 {1} DMG"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591458496516
+    m_Localized: BLOCK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591458496517
+    m_Localized: KO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591458496518
+    m_Localized: "{0} jab \xB7 {1} straight \xB7 {0} {1} {0} combo \xB7 {3} low kick
+      \xB7 {4} body kick \xB7 {2} walk \xB7 tap twice = dash \xB7 hold up = jump
+      \xB7 hold back = block \xB7 down-back = low block"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591458496519
+    m_Localized: "{0} \xB7 frame {1}/{2} \xB7 hits on frame {3}, active {4}, recovery
+      {5}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591458496522
+    m_Localized: Stick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16067559677952
+    m_Localized: Body Kick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694228422656
+    m_Localized: "Opponent: {0} \xB7 change it in the pause menu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811264
+    m_Localized: ROUND {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811265
+    m_Localized: FIGHT!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811266
+    m_Localized: TIME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811267
+    m_Localized: '{0} WINS ROUND {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811268
+    m_Localized: DRAW ROUND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811269
+    m_Localized: COUNTER!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811270
+    m_Localized: GROGGY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811271
+    m_Localized: OVERLOAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811272
+    m_Localized: '{0} BROKEN!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811273
+    m_Localized: '{0} {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811274
+    m_Localized: Head
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811275
+    m_Localized: Torso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811276
+    m_Localized: Left arm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811277
+    m_Localized: Right arm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811278
+    m_Localized: Legs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811279
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811280
+    m_Localized: Damaged
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811281
+    m_Localized: Broken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811282
+    m_Localized: "{0} \xB7 {1}%"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811283
+    m_Localized: VS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811284
+    m_Localized: CHALLENGER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811285
+    m_Localized: "HP {0} \xB7 Stamina {1} \xB7 Power {2}/5"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811286
+    m_Localized: CORNER BREAK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811287
+    m_Localized: "Round {0} over \xB7 score {1}\u2013{2}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811288
+    m_Localized: "10% of lost HP returns \xB7 OVERLOAD empties \xB7 choose one part
+      to repair by one step"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811289
+    m_Localized: 'The challenger repairs: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811290
+    m_Localized: Continues by itself in {0} s
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811291
+    m_Localized: WINNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811292
+    m_Localized: DRAW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811293
+    m_Localized: "Score {0}\u2013{1}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811294
+    m_Localized: Rematch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811295
+    m_Localized: Robot select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811296
+    m_Localized: Main menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811297
+    m_Localized: 'Opponent action: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811298
+    m_Localized: 'Frame data: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811299
+    m_Localized: Restart match
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811300
+    m_Localized: Stand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811301
+    m_Localized: Block
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811302
+    m_Localized: Crouch-block
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811303
+    m_Localized: Challenger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811304
+    m_Localized: Choose the challenger's robot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811305
+    m_Localized: Skip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31002742218752
+    m_Localized: "{0} HIT \xB7 {1} DMG"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="Theme.uss" />
+    <ui:VisualElement class="vs-screen">
+        <ui:VisualElement class="vs-side vs-p1">
+            <RFL.Game.UI.LocLabel key="ui.select.p1" class="vs-tag vs-tag-p1" />
+            <RFL.Game.UI.LocLabel name="p1-name" class="vs-name" />
+            <RFL.Game.UI.LocLabel name="p1-class" class="vs-class" />
+            <RFL.Game.UI.LocLabel name="p1-stats" class="vs-stats" />
+        </ui:VisualElement>
+        <RFL.Game.UI.LocLabel key="ui.intro.vs" class="vs-mark" />
+        <ui:VisualElement class="vs-side vs-p2">
+            <RFL.Game.UI.LocLabel name="p2-tag" key="ui.intro.challenger" class="vs-tag vs-tag-p2" />
+            <RFL.Game.UI.LocLabel name="p2-name" class="vs-name" />
+            <RFL.Game.UI.LocLabel name="p2-class" class="vs-class" />
+            <RFL.Game.UI.LocLabel name="p2-stats" class="vs-stats" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

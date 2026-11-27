@@ -1,0 +1,66 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="Theme.uss" />
+    <ui:VisualElement name="app" class="app app-clear">
+        <ui:VisualElement class="hud-top">
+            <ui:VisualElement class="hud-side hud-p1">
+                <ui:VisualElement class="hud-names hud-names-p1">
+                    <RFL.Game.UI.LocLabel name="p1-head" class="hud-tag hud-tag-p1" />
+                    <RFL.Game.UI.LocLabel name="p1-robot" class="hud-robot" />
+                    <ui:Label name="p1-hp" class="hud-hp-text" />
+                    <ui:VisualElement name="p1-pips" class="pips-row" />
+                </ui:VisualElement>
+                <ui:VisualElement class="hp-bar hp-bar-p1">
+                    <ui:VisualElement name="p1-hp-fill" class="hp-fill hp-fill-p1" />
+                </ui:VisualElement>
+                <ui:VisualElement class="gauge-row gauge-row-p1">
+                    <ui:VisualElement class="gauge stamina-gauge"><ui:VisualElement name="p1-stamina-fill" class="gauge-fill stamina-fill" /></ui:VisualElement>
+                    <ui:VisualElement class="gauge overload-gauge"><ui:VisualElement name="p1-overload-fill" class="gauge-fill overload-fill" /></ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="hud-status-row hud-status-row-p1">
+                    <ui:VisualElement name="p1-parts" class="parts-figure" />
+                    <ui:VisualElement class="hud-callouts">
+                        <RFL.Game.UI.LocLabel name="p1-status" class="hud-status" />
+                        <RFL.Game.UI.LocLabel name="p1-counter" key="ui.fight.counter" class="hud-counter" />
+                        <RFL.Game.UI.LocLabel name="p1-combo" class="hud-combo hud-combo-p1" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="hud-center">
+                <ui:Label name="timer" class="hud-timer" />
+                <RFL.Game.UI.LocLabel name="mode" class="hud-mode" />
+            </ui:VisualElement>
+            <ui:VisualElement class="hud-side hud-p2">
+                <ui:VisualElement class="hud-names hud-names-p2">
+                    <RFL.Game.UI.LocLabel name="p2-head" class="hud-tag hud-tag-p2" />
+                    <RFL.Game.UI.LocLabel name="p2-robot" class="hud-robot" />
+                    <ui:Label name="p2-hp" class="hud-hp-text" />
+                    <ui:VisualElement name="p2-pips" class="pips-row" />
+                </ui:VisualElement>
+                <ui:VisualElement class="hp-bar hp-bar-p2">
+                    <ui:VisualElement name="p2-hp-fill" class="hp-fill hp-fill-p2" />
+                </ui:VisualElement>
+                <ui:VisualElement class="gauge-row gauge-row-p2">
+                    <ui:VisualElement class="gauge stamina-gauge"><ui:VisualElement name="p2-stamina-fill" class="gauge-fill stamina-fill" /></ui:VisualElement>
+                    <ui:VisualElement class="gauge overload-gauge"><ui:VisualElement name="p2-overload-fill" class="gauge-fill overload-fill" /></ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="hud-status-row hud-status-row-p2">
+                    <ui:VisualElement name="p2-parts" class="parts-figure" />
+                    <ui:VisualElement class="hud-callouts">
+                        <RFL.Game.UI.LocLabel name="p2-status" class="hud-status" />
+                        <RFL.Game.UI.LocLabel name="p2-counter" key="ui.fight.counter" class="hud-counter" />
+                        <RFL.Game.UI.LocLabel name="p2-combo" class="hud-combo hud-combo-p2" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <RFL.Game.UI.LocLabel name="banner" class="hud-banner" />
+        <RFL.Game.UI.LocLabel name="sub-banner" class="hud-sub-banner" />
+        <ui:VisualElement name="hud-bottom" class="hud-bottom">
+            <RFL.Game.UI.LocLabel name="frames" class="hud-frames" />
+            <RFL.Game.UI.LocLabel name="dummy" class="hud-dummy" />
+            <RFL.Game.UI.LocLabel name="controls" class="hud-controls" />
+        </ui:VisualElement>
+        <ui:VisualElement name="overlay-host" class="modal-host" />
+        <ui:VisualElement name="prompt-bar" class="prompt-bar" />
+    </ui:VisualElement>
+</ui:UXML>

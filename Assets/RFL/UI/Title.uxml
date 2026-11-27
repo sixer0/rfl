@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="Theme.uss" />
+    <ui:VisualElement class="screen title-screen">
+        <RFL.Game.UI.LocLabel key="ui.title.working_title" class="title-logo" />
+        <RFL.Game.UI.LocLabel key="ui.title.tagline" class="title-tagline" />
+        <RFL.Game.UI.LocLabel name="press" key="ui.title.press_any" class="title-press" />
+        <RFL.Game.UI.LocLabel name="version" key="ui.title.version" class="title-version" />
+    </ui:VisualElement>
+</ui:UXML>

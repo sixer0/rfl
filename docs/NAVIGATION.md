@@ -38,6 +38,7 @@ the only entry point; this file is the map behind it. Binding for humans and Cla
 | Fight values | `asset_src/data/tuning.json`, `asset_src/data/moves.csv` | one value per field |
 | Unity version, packages, project settings | `ProjectSettings/`, `Packages/manifest.json` | Unity 6.3 LTS (6000.3) |
 | Code by assembly | `Assets/RFL/Sim/`, `Data/`, `Game/`, `Editor/`, `Tests/` | one `.asmdef` per folder |
+| Scenes, UI layouts, string tables | `Assets/RFL/Scenes/`, `UI/`, `Localization/`, `Data/Strings/ui_strings.csv` | rebuilt by `RFL.Editor.ProjectSetup.Run` |
 | Manual chapter text | `docs/manual/NN-chapter-name.md` | file number = chapter number |
 | Current mission folder | `docs/.active-mission` | one line: mission id |
 

@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="Theme.uss" />
+    <ui:VisualElement class="modal-scrim">
+        <ui:VisualElement class="modal corner-modal">
+            <RFL.Game.UI.LocLabel key="ui.corner.title" class="modal-message" />
+            <RFL.Game.UI.LocLabel name="subtitle" class="corner-subtitle" />
+            <RFL.Game.UI.LocLabel key="ui.corner.rules" class="corner-rules" />
+            <ui:VisualElement name="parts" class="corner-parts" />
+            <RFL.Game.UI.LocLabel name="opponent" class="corner-opponent" />
+            <RFL.Game.UI.LocLabel name="countdown" class="corner-countdown" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

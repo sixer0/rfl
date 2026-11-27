@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="Theme.uss" />
+    <ui:VisualElement class="modal-scrim">
+        <ui:VisualElement class="modal results-modal">
+            <RFL.Game.UI.LocLabel name="title" key="ui.results.title" class="results-kicker" />
+            <RFL.Game.UI.LocLabel name="winner" class="results-winner" />
+            <RFL.Game.UI.LocLabel name="score" class="results-score" />
+            <ui:VisualElement class="modal-list">
+                <RFL.Game.UI.LocLabel name="item-rematch" key="ui.results.rematch" />
+                <RFL.Game.UI.LocLabel name="item-select" key="ui.results.select" />
+                <RFL.Game.UI.LocLabel name="item-main" key="ui.results.main" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
