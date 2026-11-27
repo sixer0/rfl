@@ -72,7 +72,7 @@ and Budi together (see rule 17).
 ### Hygiene
 
 20. No secret ever enters a commit, report or log line: name the location and type, the
-    holder rotates it. Accounts stay with their adult holder; seats are not shared.
+    holder rotates it. Accounts stay with their holder; seats and agent accounts are not shared.
 21. Every generated or bought asset gets its `PROVENANCE.md` row in the same commit that
     adds the file; licence column never empty; music passes a Content ID check.
 22. Commit style follows STRUCTURE.md: imperative subject under 72 chars, body links the

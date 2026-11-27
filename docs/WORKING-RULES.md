@@ -11,7 +11,9 @@ team-grade development work: cards, branches, pull requests, review, gates and e
 The project is worked by two people only, Budi and Rafif. No one else contributes.
 
 - **Rafif is the main developer trainee** and gives the project most of the working time:
-  specs, tuning data, code, art and audio, playtests. He works hands-on, opens a pull request per card and responds to review.
+  specs, tuning data, code, art and audio, playtests. As an AI engineer he works by pair
+  programming with an AI agent of his own choice, opens a pull request per card and
+  responds to review. Rafif is the accountable owner of everything his pair agent produces.
 - **Budi reviews and plans**: he plans the work timeline, writes and sequences the cards,
   reviews every pull request, merges into main and holds the gates. Budi's Claude seat
   supports that review and planning; it does not do Rafif's cards for him.
@@ -20,18 +22,31 @@ The project is worked by two people only, Budi and Rafif. No one else contribute
 
 | Code | Who | Owns |
 |---|---|---|
-| RAF | Rafif | Main developer trainee and game director: design specs, tuning data, code, art, audio, playtests, one pull request per card |
+| RAF | Rafif | Main developer trainee, AI engineer and game director: design specs, tuning data, code, art, audio, playtests, one pull request per card |
 | BUD | Budi | Timeline and card planning, pull-request review, merges, repository rules, triage, money, accounts, legal holder, Steamworks, gate approval |
+| AI-RAF | Rafif's pair agent: any AI coding agent Rafif chooses, on his own account | Pairs on Rafif's cards only; never accountable, never approves |
 | C-BUD | Claude seat on Budi's account | Planning drafts, review support and checks for Budi; acts only for Budi |
 
-- There is one Claude Ultra seat, held by Budi personally. Rafif never types into
-  Claude; he builds himself and Budi reviews. Accounts are not shared (Claude requires
-  adult users, checked Nov 2026).
-- A combined owner like `BUD + C-BUD` means Budi drives and his seat assists. The first
-  code named in an owner cell is accountable for the step.
-- The seat's output is reviewed by Budi before it reaches Rafif or the repository.
+- Budi holds one Claude Ultra seat personally (C-BUD). Rafif picks his own pair agent
+  and runs it on his own account, under that tool's terms of use. Accounts are not shared.
+- A combined owner like `RAF + AI-RAF` or `BUD + C-BUD` means the person drives and the
+  agent assists. The first code named in an owner cell is accountable for the step.
+- C-BUD's output is reviewed by Budi before it reaches Rafif or the repository.
 - Further people (for example art, audio or a producer) join only if the work needs
   them; each one is added here with an owner code before taking a card.
+
+### Pair programming (Rafif + AI-RAF)
+
+- Rafif drives: he decides the approach, gives the agent the card, reads every diff the
+  agent proposes and keeps or rejects it. The agent never commits, pushes or opens a pull
+  request on its own judgement.
+- Rafif is accountable for every line in his pull requests, whoever typed it. "The agent
+  wrote it" is never an answer at review; Rafif MUST be able to explain any line he submits.
+- The agent works from the card like any other agent: nothing outside the card, questions
+  go to `docs/decisions/open-questions.md`.
+- Each pull request names the pair agent used (tool and model) in its body, so Budi can
+  review with that in mind and the team can compare against the `swarm` benchmark.
+- No secret, account credential or private data is pasted into the agent.
 
 ## Hours and rhythm
 

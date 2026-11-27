@@ -47,7 +47,7 @@ their own, they append to `decision-log.md`.
 ```markdown
 # C-0007 — Training mode
 
-Ticket: APP-010 · Chapter: 17 · Owner: BUD + C-BUD
+Ticket: APP-010 · Chapter: 17 · Owner: RAF + AI-RAF
 Stop point: after the instant-reset box is checked
 Check: every base mechanic demonstrable in one session, in this order: health, stamina,
 block, parry, sidestep, hit-stop, part damage, groggy, OVERLOAD, juggle cap, throw,
@@ -170,13 +170,13 @@ approvals are the only messages starting with `gate:`.
 ## Pull-request body — sample
 
 ```markdown
-Closes C-0007 (training mode). Branch from swarm/main.
+Closes C-0007 (training mode). Branch from origin/main.
 
 - Reset implemented per card stop point
 - Debug overlay behind a settings toggle, off by default
 
 Evidence: run-tests.sh output and hash line quoted above; capture G1-06.png attached.
-Reviewer: BUD. Seat: C-BUD generated, BUD reviewed line by line.
+Author: RAF, paired with AI-RAF (tool and model named). Reviewer: BUD, line by line.
 ```
 
 ## CLAUDE.md block — root file, added at D−7
