@@ -25,11 +25,15 @@ Sample numbers illustrate the format and match manual Rev A values where stated.
 │  ├─ decisions/                   decision-log.md, changes/CR-nn.md, open-questions.md
 │  ├─ reports/                     gate-G0.md … gate-G7.md, gate-MVP.md
 │  └─ state/                       progress.md          generated, never typed
+├─ Packages/                       manifest.json, packages-lock.json (Unity 6.3 LTS)
+├─ ProjectSettings/               Unity project settings
+├─ Assets/Settings/               URP pipeline and renderer assets
 ├─ Assets/RFL/
 │  ├─ Sim/                         deterministic core (RFL.Sim)
 │  ├─ Data/                        read-only tables (RFL.Data)
 │  ├─ Game/                        presentation glue (RFL.Game)
-│  └─ Editor/                      importer and tooling (RFL.Editor)
+│  ├─ Editor/                      importer and tooling (RFL.Editor)
+│  └─ Tests/                       EditMode/ and PlayMode/ suites (RFL.Tests.*)
 ├─ asset_src/
 │  ├─ data/                        tuning.json, moves.csv
 │  ├─ ledger.csv                   asset census with AST ids
