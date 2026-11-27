@@ -33,7 +33,12 @@ Sample numbers illustrate the format and match manual Rev A values where stated.
 │  ├─ Data/                        read-only tables (RFL.Data)
 │  ├─ Game/                        presentation glue (RFL.Game)
 │  ├─ Editor/                      importer and tooling (RFL.Editor)
-│  └─ Tests/                       EditMode/ and PlayMode/ suites (RFL.Tests.*)
+│  ├─ Tests/                       EditMode/ and PlayMode/ suites (RFL.Tests.*)
+│  ├─ UI/                          UXML screens, USS theme
+│  ├─ Scenes/                      Menu.unity, GreyBox.unity (generated)
+│  ├─ Materials/                   grey-box materials (generated)
+│  └─ Localization/                ID/EN locales and string tables (generated)
+├─ Assets/AddressableAssetsData/   Localization's asset groups (generated)
 ├─ asset_src/
 │  ├─ data/                        tuning.json, moves.csv
 │  ├─ ledger.csv                   asset census with AST ids

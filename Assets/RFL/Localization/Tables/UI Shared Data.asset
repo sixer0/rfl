@@ -1,0 +1,612 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: UI
+  m_TableCollectionNameGuidString: dc7352cf9ab974c52ac357c4ba9387e3
+  m_Entries:
+  - m_Id: 288350208
+    m_Key: ui.title.working_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296738816
+    m_Key: ui.title.tagline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296738817
+    m_Key: ui.title.press_any
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296738818
+    m_Key: ui.title.version
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933120
+    m_Key: ui.menu.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933121
+    m_Key: ui.menu.versus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933122
+    m_Key: ui.menu.versus.desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933123
+    m_Key: ui.menu.training
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933124
+    m_Key: ui.menu.training.desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933125
+    m_Key: ui.menu.settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933126
+    m_Key: ui.menu.settings.desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933127
+    m_Key: ui.menu.quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933128
+    m_Key: ui.menu.quit.desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933129
+    m_Key: ui.versus.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933130
+    m_Key: ui.versus.pvp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933131
+    m_Key: ui.versus.pvp.desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933132
+    m_Key: ui.versus.cpu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933133
+    m_Key: ui.versus.cpu.desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933134
+    m_Key: ui.difficulty.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933135
+    m_Key: ui.difficulty.easy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933136
+    m_Key: ui.difficulty.easy.desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933137
+    m_Key: ui.difficulty.normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933138
+    m_Key: ui.difficulty.normal.desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933139
+    m_Key: ui.difficulty.hard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933140
+    m_Key: ui.difficulty.hard.desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933141
+    m_Key: ui.select.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933142
+    m_Key: ui.select.choose_for_cpu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933143
+    m_Key: ui.select.choose_for_dummy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933144
+    m_Key: ui.select.p1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933145
+    m_Key: ui.select.p2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933146
+    m_Key: ui.select.cpu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933147
+    m_Key: ui.select.dummy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933148
+    m_Key: ui.select.join
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933149
+    m_Key: ui.select.ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933150
+    m_Key: ui.class.light
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933151
+    m_Key: ui.class.middle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933152
+    m_Key: ui.class.heavy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933153
+    m_Key: ui.stat.hp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933154
+    m_Key: ui.stat.stamina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933155
+    m_Key: ui.stat.agility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933156
+    m_Key: ui.stat.power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933157
+    m_Key: ui.stat.overload
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933158
+    m_Key: ui.stat.tech
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933159
+    m_Key: ui.fmt.int
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933160
+    m_Key: robot.standard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933161
+    m_Key: robot.power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933162
+    m_Key: robot.speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933163
+    m_Key: move.body_blow_combo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933164
+    m_Key: move.uppercut_combo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933165
+    m_Key: move.ducking_counter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933166
+    m_Key: move.rushing_straight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933167
+    m_Key: move.haymaker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933168
+    m_Key: move.low_kick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933169
+    m_Key: move.clinch_throw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933170
+    m_Key: move.hook_flurry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933171
+    m_Key: ui.settings.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933172
+    m_Key: ui.settings.tab.game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933173
+    m_Key: ui.settings.tab.audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933174
+    m_Key: ui.settings.tab.display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933175
+    m_Key: ui.settings.language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933176
+    m_Key: ui.settings.lang.id
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933177
+    m_Key: ui.settings.lang.en
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933178
+    m_Key: ui.settings.master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933179
+    m_Key: ui.settings.music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933180
+    m_Key: ui.settings.effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933181
+    m_Key: ui.settings.ui
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933182
+    m_Key: ui.settings.window_mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933183
+    m_Key: ui.settings.wm.borderless
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933184
+    m_Key: ui.settings.wm.windowed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933185
+    m_Key: ui.settings.wm.exclusive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933186
+    m_Key: ui.settings.resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933187
+    m_Key: ui.settings.vsync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933188
+    m_Key: ui.settings.on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933189
+    m_Key: ui.settings.off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933190
+    m_Key: ui.settings.defaults
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933191
+    m_Key: ui.settings.apply_hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933192
+    m_Key: ui.prompt.confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933193
+    m_Key: ui.prompt.back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933194
+    m_Key: ui.prompt.change
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933195
+    m_Key: ui.prompt.tabs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933196
+    m_Key: ui.prompt.pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933197
+    m_Key: ui.glyph.arrows
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933198
+    m_Key: ui.glyph.dpad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933199
+    m_Key: ui.quit.message
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933200
+    m_Key: ui.common.yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933201
+    m_Key: ui.common.no
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933202
+    m_Key: ui.grey.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933204
+    m_Key: ui.pause.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933205
+    m_Key: ui.pause.resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933206
+    m_Key: ui.pause.select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300933207
+    m_Key: ui.pause.main
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591450107904
+    m_Key: move.jab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591458496512
+    m_Key: move.cross
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591458496513
+    m_Key: move.uppercut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591458496514
+    m_Key: move.straight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591458496515
+    m_Key: ui.fight.combo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591458496516
+    m_Key: ui.fight.block
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591458496517
+    m_Key: ui.fight.ko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591458496518
+    m_Key: ui.fight.controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591458496519
+    m_Key: ui.fight.frames
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591458496522
+    m_Key: ui.glyph.stick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16067559677952
+    m_Key: move.body_kick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694228422656
+    m_Key: ui.fight.dummy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811264
+    m_Key: ui.fight.round
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811265
+    m_Key: ui.fight.fight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811266
+    m_Key: ui.fight.time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811267
+    m_Key: ui.fight.round_win
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811268
+    m_Key: ui.fight.round_draw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811269
+    m_Key: ui.fight.counter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811270
+    m_Key: ui.fight.groggy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811271
+    m_Key: ui.fight.overload
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811272
+    m_Key: ui.fight.part_broken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811273
+    m_Key: ui.fight.side_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811274
+    m_Key: ui.part.head
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811275
+    m_Key: ui.part.torso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811276
+    m_Key: ui.part.arm_l
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811277
+    m_Key: ui.part.arm_r
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811278
+    m_Key: ui.part.legs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811279
+    m_Key: ui.part.ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811280
+    m_Key: ui.part.damaged
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811281
+    m_Key: ui.part.broken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811282
+    m_Key: ui.part.row
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811283
+    m_Key: ui.intro.vs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811284
+    m_Key: ui.intro.challenger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811285
+    m_Key: ui.intro.stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811286
+    m_Key: ui.corner.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811287
+    m_Key: ui.corner.subtitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811288
+    m_Key: ui.corner.rules
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811289
+    m_Key: ui.corner.opponent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811290
+    m_Key: ui.corner.countdown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811291
+    m_Key: ui.results.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811292
+    m_Key: ui.results.draw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811293
+    m_Key: ui.results.score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811294
+    m_Key: ui.results.rematch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811295
+    m_Key: ui.results.select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811296
+    m_Key: ui.results.main
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811297
+    m_Key: ui.pause.dummy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811298
+    m_Key: ui.pause.frames
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811299
+    m_Key: ui.pause.restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811300
+    m_Key: ui.dummy.stand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811301
+    m_Key: ui.dummy.block
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811302
+    m_Key: ui.dummy.crouch_block
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811303
+    m_Key: ui.select.challenger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811304
+    m_Key: ui.select.choose_for_challenger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29694236811305
+    m_Key: ui.prompt.skip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31002742218752
+    m_Key: ui.fight.combo_one
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6203980616402206744
+  references:
+    version: 2
+    RefIds:
+    - rid: 6203980616402206744
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1795504133518

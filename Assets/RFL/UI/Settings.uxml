@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="Theme.uss" />
+    <ui:VisualElement class="screen">
+        <RFL.Game.UI.LocLabel key="ui.title.working_title" class="screen-kicker" />
+        <RFL.Game.UI.LocLabel key="ui.settings.title" class="screen-title" />
+        <ui:VisualElement name="tabs" class="tabs" />
+        <ui:VisualElement name="rows" class="rows" />
+        <RFL.Game.UI.LocLabel name="hint" class="hint" />
+    </ui:VisualElement>
+</ui:UXML>

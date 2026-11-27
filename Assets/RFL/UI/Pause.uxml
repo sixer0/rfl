@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="Theme.uss" />
+    <ui:VisualElement class="modal-scrim">
+        <ui:VisualElement class="modal">
+            <RFL.Game.UI.LocLabel key="ui.pause.title" class="modal-message" />
+            <ui:VisualElement class="modal-list pause-list">
+                <RFL.Game.UI.LocLabel name="item-resume" key="ui.pause.resume" />
+                <RFL.Game.UI.LocLabel name="item-dummy" key="ui.pause.dummy" />
+                <RFL.Game.UI.LocLabel name="item-frames" key="ui.pause.frames" />
+                <RFL.Game.UI.LocLabel name="item-restart" key="ui.pause.restart" />
+                <RFL.Game.UI.LocLabel name="item-select" key="ui.pause.select" />
+                <RFL.Game.UI.LocLabel name="item-main" key="ui.pause.main" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

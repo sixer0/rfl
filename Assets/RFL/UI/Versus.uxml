@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="Theme.uss" />
+    <ui:VisualElement class="screen">
+        <RFL.Game.UI.LocLabel key="ui.menu.versus" class="screen-kicker" />
+        <RFL.Game.UI.LocLabel key="ui.versus.title" class="screen-title" />
+        <ui:VisualElement class="menu-list">
+            <RFL.Game.UI.LocLabel name="item-pvp" key="ui.versus.pvp" />
+            <RFL.Game.UI.LocLabel name="item-cpu" key="ui.versus.cpu" />
+        </ui:VisualElement>
+        <RFL.Game.UI.LocLabel name="desc" class="desc" />
+    </ui:VisualElement>
+</ui:UXML>

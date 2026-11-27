@@ -1,0 +1,147 @@
+key,id,en
+ui.title.working_title,ROBOT FIGHTING LEAGUE,ROBOT FIGHTING LEAGUE
+ui.title.tagline,LIGA TINJU ROBOT INDONESIA,INDONESIAN ROBOT BOXING LEAGUE
+ui.title.press_any,Tekan tombol apa saja,Press any button
+ui.title.version,Versi {0},Version {0}
+ui.menu.title,Menu utama,Main menu
+ui.menu.versus,Versus,Versus
+ui.menu.versus.desc,Lawan pemain lain atau CPU.,Fight another player or the CPU.
+ui.menu.training,Latihan,Training
+ui.menu.training.desc,Latih gerakan melawan boneka latihan.,Practise against a training dummy.
+ui.menu.settings,Pengaturan,Settings
+ui.menu.settings.desc,"Bahasa, suara dan tampilan.","Language, sound and display."
+ui.menu.quit,Keluar,Quit
+ui.menu.quit.desc,Tutup game.,Close the game.
+ui.versus.title,Pilih lawan,Choose your opponent
+ui.versus.pvp,Pemain vs Pemain,Player vs Player
+ui.versus.pvp.desc,"Dua pemain, dua perangkat.","Two players, two devices."
+ui.versus.cpu,Pemain vs CPU,Player vs CPU
+ui.versus.cpu.desc,Lawan robot yang dikendalikan komputer.,Fight a computer-controlled robot.
+ui.difficulty.title,Tingkat kesulitan,Difficulty
+ui.difficulty.easy,Mudah,Easy
+ui.difficulty.easy.desc,CPU bereaksi lambat dan jarang menangkis.,The CPU reacts slowly and rarely blocks.
+ui.difficulty.normal,Normal,Normal
+ui.difficulty.normal.desc,CPU menangkis dan menghukum kesalahan besar.,The CPU blocks and punishes big mistakes.
+ui.difficulty.hard,Sulit,Hard
+ui.difficulty.hard.desc,"CPU cepat, menangkis dan memakai kombo panjang.","The CPU is fast, blocks and uses long combos."
+ui.select.title,Pilih robot,Choose your robot
+ui.select.choose_for_cpu,Pilih robot untuk CPU,Choose the CPU's robot
+ui.select.choose_for_dummy,Pilih robot untuk boneka latihan,Choose the dummy's robot
+ui.select.p1,P1,P1
+ui.select.p2,P2,P2
+ui.select.cpu,CPU,CPU
+ui.select.dummy,Boneka latihan,Training dummy
+ui.select.join,Tekan {0} di perangkat lain untuk bergabung,Press {0} on another device to join
+ui.select.ready,Siap,Ready
+ui.class.light,Kelas ringan,Light class
+ui.class.middle,Kelas menengah,Middle class
+ui.class.heavy,Kelas berat,Heavy class
+ui.stat.hp,HP,HP
+ui.stat.stamina,Stamina,Stamina
+ui.stat.agility,Kelincahan,Agility
+ui.stat.power,Tenaga,Power
+ui.stat.overload,Tahan OVERLOAD,OVERLOAD resist
+ui.stat.tech,TECH MOVE,TECH MOVES
+ui.fmt.int,{0:N0},{0:N0}
+robot.standard,STANDARD,STANDARD
+robot.power,POWER,POWER
+robot.speed,SPEED,SPEED
+move.body_blow_combo,Body Blow Combo,Body Blow Combo
+move.uppercut_combo,Uppercut Combo,Uppercut Combo
+move.ducking_counter,Ducking Counter,Ducking Counter
+move.rushing_straight,Rushing Straight,Rushing Straight
+move.haymaker,Haymaker,Haymaker
+move.low_kick,Low Kick,Low Kick
+move.clinch_throw,Clinch Throw,Clinch Throw
+move.hook_flurry,Hook Flurry,Hook Flurry
+ui.settings.title,Pengaturan,Settings
+ui.settings.tab.game,Game,Game
+ui.settings.tab.audio,Suara,Audio
+ui.settings.tab.display,Tampilan,Display
+ui.settings.language,Bahasa,Language
+ui.settings.lang.id,Bahasa Indonesia,Bahasa Indonesia
+ui.settings.lang.en,English,English
+ui.settings.master,Volume utama,Master volume
+ui.settings.music,Musik,Music
+ui.settings.effects,Efek,Effects
+ui.settings.ui,Antarmuka,Interface
+ui.settings.window_mode,Mode jendela,Window mode
+ui.settings.wm.borderless,Layar penuh tanpa bingkai,Borderless fullscreen
+ui.settings.wm.windowed,Berjendela,Windowed
+ui.settings.wm.exclusive,Layar penuh eksklusif,Exclusive fullscreen
+ui.settings.resolution,Resolusi,Resolution
+ui.settings.vsync,VSync,VSync
+ui.settings.on,Aktif,On
+ui.settings.off,Nonaktif,Off
+ui.settings.defaults,Kembalikan ke bawaan,Restore defaults
+ui.settings.apply_hint,Tekan {0} untuk menerapkan,Press {0} to apply
+ui.prompt.confirm,Pilih,Select
+ui.prompt.back,Kembali,Back
+ui.prompt.change,Ubah,Change
+ui.prompt.tabs,Ganti tab,Switch tab
+ui.prompt.pause,Jeda,Pause
+ui.glyph.arrows,Panah,Arrows
+ui.glyph.dpad,D-pad,D-pad
+ui.quit.message,Keluar dari game?,Quit the game?
+ui.common.yes,Ya,Yes
+ui.common.no,Tidak,No
+ui.grey.title,GREY BOX,GREY BOX
+ui.pause.title,Jeda,Paused
+ui.pause.resume,Lanjutkan,Resume
+ui.pause.select,Pilih robot,Robot select
+ui.pause.main,Menu utama,Main menu
+move.jab,Jab,Jab
+move.cross,Cross,Cross
+move.uppercut,Uppercut,Uppercut
+move.straight,Straight,Straight
+ui.fight.combo,{0} HIT · {1} DMG,{0} HITS · {1} DMG
+ui.fight.block,TANGKIS,BLOCK
+ui.fight.ko,KO,KO
+ui.fight.frames,"{0} · frame {1}/{2} · kena di frame {3}, aktif {4}, pulih {5}","{0} · frame {1}/{2} · hits on frame {3}, active {4}, recovery {5}"
+ui.glyph.stick,Stik,Stick
+move.body_kick,Body Kick,Body Kick
+ui.fight.controls,{0} jab · {1} straight · {0} {1} {0} kombo · {3} low kick · {4} body kick · {2} jalan · ketuk 2× = dash · tahan atas = lompat · tahan mundur = tangkis · bawah-mundur = tangkis bawah,{0} jab · {1} straight · {0} {1} {0} combo · {3} low kick · {4} body kick · {2} walk · tap twice = dash · hold up = jump · hold back = block · down-back = low block
+ui.fight.dummy,Lawan: {0} · ubah di menu jeda,Opponent: {0} · change it in the pause menu
+ui.fight.round,RONDE {0},ROUND {0}
+ui.fight.fight,FIGHT!,FIGHT!
+ui.fight.time,WAKTU HABIS,TIME
+ui.fight.round_win,{0} MENANG RONDE {1},{0} WINS ROUND {1}
+ui.fight.round_draw,RONDE SERI,DRAW ROUND
+ui.fight.counter,COUNTER!,COUNTER!
+ui.fight.groggy,GROGGY,GROGGY
+ui.fight.overload,OVERLOAD,OVERLOAD
+ui.fight.part_broken,{0} HANCUR!,{0} BROKEN!
+ui.fight.side_name,{0} {1},{0} {1}
+ui.part.head,Kepala,Head
+ui.part.torso,Badan,Torso
+ui.part.arm_l,Lengan kiri,Left arm
+ui.part.arm_r,Lengan kanan,Right arm
+ui.part.legs,Kaki,Legs
+ui.part.ok,Baik,OK
+ui.part.damaged,Rusak,Damaged
+ui.part.broken,Hancur,Broken
+ui.part.row,{0} · {1}%,{0} · {1}%
+ui.intro.vs,VS,VS
+ui.intro.challenger,PENANTANG,CHALLENGER
+ui.intro.stats,HP {0} · Stamina {1} · Tenaga {2}/5,HP {0} · Stamina {1} · Power {2}/5
+ui.corner.title,JEDA SUDUT,CORNER BREAK
+ui.corner.subtitle,Ronde {0} selesai · skor {1}–{2},Round {0} over · score {1}–{2}
+ui.corner.rules,10% HP yang hilang kembali · OVERLOAD dikosongkan · pilih satu bagian untuk diperbaiki satu tingkat,10% of lost HP returns · OVERLOAD empties · choose one part to repair by one step
+ui.corner.opponent,Penantang memperbaiki: {0},The challenger repairs: {0}
+ui.corner.countdown,Lanjut otomatis dalam {0} detik,Continues by itself in {0} s
+ui.results.title,PEMENANG,WINNER
+ui.results.draw,SERI,DRAW
+ui.results.score,Skor {0}–{1},Score {0}–{1}
+ui.results.rematch,Tanding ulang,Rematch
+ui.results.select,Pilih robot,Robot select
+ui.results.main,Menu utama,Main menu
+ui.pause.dummy,Aksi lawan: {0},Opponent action: {0}
+ui.pause.frames,Frame data: {0},Frame data: {0}
+ui.pause.restart,Ulangi pertandingan,Restart match
+ui.dummy.stand,Diam,Stand
+ui.dummy.block,Menangkis,Block
+ui.dummy.crouch_block,Tangkis bawah,Crouch-block
+ui.select.challenger,Penantang,Challenger
+ui.select.choose_for_challenger,Pilih robot penantang,Choose the challenger's robot
+ui.prompt.skip,Lewati,Skip
+ui.fight.combo_one,{0} HIT · {1} DMG,{0} HIT · {1} DMG

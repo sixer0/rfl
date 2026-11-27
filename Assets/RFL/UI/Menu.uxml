@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="Theme.uss" />
+    <ui:VisualElement name="app" class="app">
+        <ui:VisualElement name="backdrop" class="backdrop">
+            <ui:VisualElement class="backdrop-stripe" />
+        </ui:VisualElement>
+        <ui:VisualElement name="screen-host" class="screen-host" />
+        <ui:VisualElement name="modal-host" class="modal-host" />
+        <ui:VisualElement name="prompt-bar" class="prompt-bar" />
+    </ui:VisualElement>
+</ui:UXML>

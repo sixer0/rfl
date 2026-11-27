@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="Theme.uss" />
+    <ui:VisualElement class="modal-scrim">
+        <ui:VisualElement class="modal">
+            <RFL.Game.UI.LocLabel name="message" class="modal-message" />
+            <ui:VisualElement class="modal-buttons">
+                <RFL.Game.UI.LocLabel name="item-yes" key="ui.common.yes" class="modal-button" />
+                <RFL.Game.UI.LocLabel name="item-no" key="ui.common.no" class="modal-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
