@@ -68,8 +68,7 @@ three levers are pulled by D−21:
 | L3 | Usage credits back Budi's Claude seat | BUD |
 
 With L1–L3 the demo fits in about 64% of simulated runs; Budi pre-approving cuts 1–5 at
-D−21 raises it to about 80%. Hours cap: adults 9 h/day, 54 h/week, 6 days in 7; Rafif up to
-3 h/day in holiday (6 h only on a lawyer's written opinion); agents run queued cards overnight.
+D−21 raises it to about 80%. Hours cap: adults 9 h/day, 54 h/week, 6 days in 7; agents run queued cards overnight.
 
 The fit percentages above were modelled for the earlier four-person team. The team is now
 Budi and Rafif only, so they hold only as a reference until Budi replans the capacity model.
@@ -89,7 +88,6 @@ Budi and Rafif only, so they hold only as a reference until Budi replans the cap
 | RSK-01 | Scope grows one reasonable item at a time | A card names Story, Ladder or named robots | Refuse at triage; any addition names what it replaces |
 | RSK-02 | Steam paperwork overruns | Onboarding not started at D−28 | Holder named day one; bank name matches exactly |
 | RSK-03 | A Claude seat lost | Cards pile on one seat overnight | Redistribute at next gate; queue stays per-owner |
-| RSK-04 | School term limits Rafif hours D31–D44 | No school dates by D−10 | MUST-ASK family; day plan follows school-term limits |
 | RSK-05 | Manual drifts from repository copy | Diff between PDF and `docs/manual/` | Rebuild from Markdown at every gate |
 | RSK-06 | Hit-stop or shake causes discomfort | Testers report nausea in blind A/B | Halve amplitude, lengthen duration; ship the slider |
 
@@ -99,5 +97,4 @@ Budi and Rafif only, so they hold only as a reference until Budi replans the cap
 |---|---|---|---|
 | 1 | Who holds Steam, accounts, IP | Budi names the holder | D−28 |
 | 2 | Who holds the Claude seat | Budi, in his own name; never Rafif | D−28 |
-| 3 | Rafif's lawful hours and school dates | Up to 3 h/day supervised; 6 h only on lawyer's opinion | D−10 |
-| 4 | Scope, levers, pre-approved cuts | D30 demo, L1–L3, cuts 1–5 | D−21 |
+| 3 | Scope, levers, pre-approved cuts | D30 demo, L1–L3, cuts 1–5 | D−21 |

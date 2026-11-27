@@ -7,7 +7,7 @@ Every term this board uses, one line each. Wordings follow Production Manual
 
 - **Team** — Budi and Rafif only. The repository is Rafif's practice ground for
   professional development work.
-- **RAF** — Rafif, main developer and game director: does the majority of the work (specs,
+- **RAF** — Rafif, main developer trainee and game director: does the majority of the work (specs,
   tuning data, code, art, audio, playtests) and opens one pull request per card. Never
   types into Claude.
 - **BUD** — Budi, planner and reviewer: plans the timeline and cards, reviews and merges

@@ -10,8 +10,8 @@ This repository is a practice project: it familiarises Rafif with professional,
 team-grade development work: cards, branches, pull requests, review, gates and evidence.
 The project is worked by two people only, Budi and Rafif. No one else contributes.
 
-- **Rafif does the majority of the work**: specs, tuning data, code, art and audio,
-  playtests. He works hands-on, opens a pull request per card and responds to review.
+- **Rafif is the main developer trainee** and gives the project most of the working time:
+  specs, tuning data, code, art and audio, playtests. He works hands-on, opens a pull request per card and responds to review.
 - **Budi reviews and plans**: he plans the work timeline, writes and sequences the cards,
   reviews every pull request, merges into main and holds the gates. Budi's Claude seat
   supports that review and planning; it does not do Rafif's cards for him.
@@ -20,7 +20,7 @@ The project is worked by two people only, Budi and Rafif. No one else contribute
 
 | Code | Who | Owns |
 |---|---|---|
-| RAF | Rafif | Main developer and game director: design specs, tuning data, code, art, audio, playtests, one pull request per card |
+| RAF | Rafif | Main developer trainee and game director: design specs, tuning data, code, art, audio, playtests, one pull request per card |
 | BUD | Budi | Timeline and card planning, pull-request review, merges, repository rules, triage, money, accounts, legal holder, Steamworks, gate approval |
 | C-BUD | Claude seat on Budi's account | Planning drafts, review support and checks for Budi; acts only for Budi |
 
@@ -37,8 +37,6 @@ The project is worked by two people only, Budi and Rafif. No one else contribute
 
 - Days are relative: Phase 0 D−28→D0, production D1→D30, demo live D30, review D44.
 - Adults: at most 9 hours a day, 54 a week, 6 days in 7, rest days staggered.
-- Rafif: up to 3 hours a day supervised, outside school time; 6 hours only on a lawyer's
-  written opinion. School dates are a MUST-ASK to the family by D−10.
 - The project never stops: agents run queued cards overnight; the night queue loads at
   18:00 on Budi's seat, for planning and review tasks only.
 
@@ -67,10 +65,9 @@ The project is worked by two people only, Budi and Rafif. No one else contribute
 
 - Anyone — including a Claude agent via the open-questions file — may raise a change
   request. Budi triages within one working day: severity S1/S2/S3, whether it touches a
-  framing decision, money, accounts, a minor's hours or a gate; copy to
+  framing decision, money, accounts or a gate; copy to
   `docs/decisions/changes/CR-nn.md`.
-- Decisions needing Budi: framing defaults, money, accounts, a minor's hours, gate
-  approval. Recorded as `DN-nnn` in `docs/decisions/decision-log.md`: decider, options,
+- Decisions needing Budi: framing defaults, money, accounts, gate approval. Recorded as `DN-nnn` in `docs/decisions/decision-log.md`: decider, options,
   evidence, choice, revisit condition.
 - Severity timing: S1 same day and every reader told; S2 with the next daily build; S3
   held for Edition 2. Waiving a hero item or an S1/S2 defect needs Rafif and Budi together.

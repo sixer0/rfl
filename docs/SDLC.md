@@ -87,7 +87,7 @@ and Budi together (see rule 17).
 
 | Stage | Window | Entry | Exit criterion |
 |---|---|---|---|
-| Phase 0 run-up | D−28→D0 | Budi answers the four Director decisions of TIMELINE.md | G0 pack: baseline tagged `baseline-1`, CI green, cards exist, seats verified |
+| Phase 0 run-up | D−28→D0 | Budi answers the three Director decisions of TIMELINE.md | G0 pack: baseline tagged `baseline-1`, CI green, cards exist, seats verified |
 | Core loop build | D1→D6 | G0 passed | G1 pack: exchange reads as fun in grey box; ring fixed at 9.0 m |
 | Vertical slice | D7→D12 | G1 passed | G2 pack: one complete match at final quality; hit-stop A/B settled |
 | Content to alpha | D13→D20 | G2 passed | G3 pack: census counts complete, rough ok; first demo build to Valve |

@@ -9,8 +9,8 @@ and the working docs derived from it. The PDF sits at the repo root as the sourc
 This repository is a practice project for familiarising Rafif with professional
 development work. The team is two people, no one else:
 
-- **Rafif (RAF)** does the majority of the work: specs, tuning, code, art, audio and
-  playtests, one pull request per card.
+- **Rafif (RAF)** is the main developer trainee and gives the project most of the working
+  time: specs, tuning, code, art, audio and playtests, one pull request per card.
 - **Budi (BUD)** plans the work timeline and the cards, reviews every pull request and
   manages main (merges, gates).
 
