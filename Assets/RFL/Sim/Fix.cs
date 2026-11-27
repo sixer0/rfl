@@ -36,6 +36,19 @@ namespace RFL.Sim
 
         public static Fix FromRaw(long raw) => new Fix(raw);
 
+        /// <summary>num / den, truncated toward zero. Use for data constants: FromRatio(1300, 60000).</summary>
+        public static Fix FromRatio(long num, long den) => new Fix((num << FractionBits) / den);
+
+        /// <summary>Millimetres to metres: data stores distances as integer millimetres.</summary>
+        public static Fix FromMilli(int milli) => FromRatio(milli, 1000);
+
+        public static Fix Abs(Fix a) => a.Raw < 0 ? new Fix(-a.Raw) : a;
+
+        public static Fix Clamp(Fix value, Fix low, Fix high) =>
+            value < low ? low
+            : value > high ? high
+            : value;
+
         public static Fix operator +(Fix a, Fix b) => new Fix(a.Raw + b.Raw);
 
         public static Fix operator -(Fix a, Fix b) => new Fix(a.Raw - b.Raw);
@@ -45,6 +58,11 @@ namespace RFL.Sim
         public static Fix operator *(Fix a, Fix b) => new Fix((a.Raw * b.Raw) >> FractionBits);
 
         public static Fix operator /(Fix a, Fix b) => new Fix((a.Raw << FractionBits) / b.Raw);
+
+        public static Fix operator *(Fix a, int b) => new Fix(a.Raw * b);
+
+        /// <summary>Truncates toward zero, like the Fix by Fix division.</summary>
+        public static Fix operator /(Fix a, int b) => new Fix(a.Raw / b);
 
         public static bool operator ==(Fix a, Fix b) => a.Raw == b.Raw;
 
@@ -65,6 +83,12 @@ namespace RFL.Sim
         public override int GetHashCode() => Raw.GetHashCode();
 
         public int CompareTo(Fix other) => Raw.CompareTo(other.Raw);
+
+        /// <summary>Rounds half up (toward positive infinity) to the nearest integer.</summary>
+        public int RoundToInt() => (int)((Raw + (OneRaw >> 1)) >> FractionBits);
+
+        /// <summary>Whole millimetres, rounded half up; used by tests and the debug overlay.</summary>
+        public int ToMilli() => (int)((Raw * 1000 + (OneRaw >> 1)) >> FractionBits);
 
         /// <summary>
         /// Culture-free text with exactly three decimals, rounded half away from zero, built
