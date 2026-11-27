@@ -16,14 +16,14 @@ review D44 on Tue 16 Feb 2027. Move the start by shifting D−28; no procedure c
 
 | Gate | Day | Question the gate answers | Approver |
 |---|---|---|---|
-| G0 Ready to build | D0 | People, machines, accounts, repository and baseline ready for D1? All 12 framing decisions confirmed | AND + RAF |
-| G1 Core loop | D6 | Is the punch-block-sidestep exchange fun in a grey box? Ring size fixed here | AND + RAF |
-| G2 Vertical slice | D12 | Does one complete match look, sound and feel like the demo? Heavy hit-stop A/B settled | AND + RAF |
-| G3 Content complete, alpha | D20 | Every demo asset and screen in the build, even rough? First demo build to Valve | AND + RAF |
-| G4 Feature freeze, beta | D24 | Every feature finished, so only fixes remain? | AND + RAF |
-| G5 Release candidate | D28 | Could this build ship as it is? Final demo build went at D26 | AND + RAF |
-| G6 Launch | D30 | Demo live, stable, watched | AND + RAF |
-| G7 Post-launch review | D44 | What did the first 14 days teach; what comes next | AND + RAF |
+| G0 Ready to build | D0 | People, machines, accounts, repository and baseline ready for D1? All 12 framing decisions confirmed | BUD + RAF |
+| G1 Core loop | D6 | Is the punch-block-sidestep exchange fun in a grey box? Ring size fixed here | BUD + RAF |
+| G2 Vertical slice | D12 | Does one complete match look, sound and feel like the demo? Heavy hit-stop A/B settled | BUD + RAF |
+| G3 Content complete, alpha | D20 | Every demo asset and screen in the build, even rough? First demo build to Valve | BUD + RAF |
+| G4 Feature freeze, beta | D24 | Every feature finished, so only fixes remain? | BUD + RAF |
+| G5 Release candidate | D28 | Could this build ship as it is? Final demo build went at D26 | BUD + RAF |
+| G6 Launch | D30 | Demo live, stable, watched | BUD + RAF |
+| G7 Post-launch review | D44 | What did the first 14 days teach; what comes next | BUD + RAF |
 
 Gate outcomes are one of: pass, pass with conditions (SHOULD items only, max 3), fix list, stop.
 Evidence lives in `docs/reports/gate-Gn.md`.
@@ -63,13 +63,16 @@ three levers are pulled by D−21:
 
 | Lever | Content | Owner |
 |---|---|---|
-| L1 | Budi and Ory work full time in Phase 0 (13 clips made before D1) | BUD, ORY |
-| L2 | Robot art is bought, not in-house | AND |
-| L3 | Usage credits back the three Claude seats | AND |
+| L1 | Full-time effort in Phase 0 (13 clips made before D1) | RAF, planned by BUD |
+| L2 | Robot art is bought, not in-house | BUD |
+| L3 | Usage credits back Budi's Claude seat | BUD |
 
-With L1–L3 the demo fits in about 64% of simulated runs; Andy pre-approving cuts 1–5 at
+With L1–L3 the demo fits in about 64% of simulated runs; Budi pre-approving cuts 1–5 at
 D−21 raises it to about 80%. Hours cap: adults 9 h/day, 54 h/week, 6 days in 7; Rafif up to
 3 h/day in holiday (6 h only on a lawyer's written opinion); agents run queued cards overnight.
+
+The fit percentages above were modelled for the earlier four-person team. The team is now
+Budi and Rafif only, so they hold only as a reference until Budi replans the capacity model.
 
 ## Cut list (pre-approvable at D−21, in order)
 
@@ -94,7 +97,7 @@ D−21 raises it to about 80%. Hours cap: adults 9 h/day, 54 h/week, 6 days in 7
 
 | # | Decision | Default | Needed by |
 |---|---|---|---|
-| 1 | Who holds Steam, accounts, IP | Existing PT Andy names; Andy personally as fallback | D−28 |
-| 2 | Who holds the three Claude seats | Budi, Ory, Andy, each in their own name; never Rafif | D−28 |
+| 1 | Who holds Steam, accounts, IP | Budi names the holder | D−28 |
+| 2 | Who holds the Claude seat | Budi, in his own name; never Rafif | D−28 |
 | 3 | Rafif's lawful hours and school dates | Up to 3 h/day supervised; 6 h only on lawyer's opinion | D−10 |
 | 4 | Scope, levers, pre-approved cuts | D30 demo, L1–L3, cuts 1–5 | D−21 |

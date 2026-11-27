@@ -152,7 +152,7 @@ Assignee:
 - [ ] Frame-time graph flat through hit-stop
 
 ## APP-015 · MVP build and review pack
-Window: day 7 · Depends: APP-014 · Done when: Andy reviews the build and commits the outcome
+Window: day 7 · Depends: APP-014 · Done when: Budi reviews the build and commits the outcome
 Assignee:
 
 - [ ] IL2CPP Windows build from CI

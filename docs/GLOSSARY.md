@@ -5,14 +5,16 @@ Every term this board uses, one line each. Wordings follow Production Manual
 
 ## People and seats
 
-- **RAF** — Rafif, developer and game director: decides design, writes specs and tuning
-  data, playtests, reviews diffs with Budi. Never types into Claude.
-- **ORY** — Ory, audio-visual lead: models, rigs, clips, VFX, UI art, sound, music, asset ledger.
-- **BUD** — Budi, engineer: architecture, simulation core, tools, CI, builds, repository rules, triage.
-- **AND** — Andy, sponsor and producer gate: money, accounts, legal holder, gate approval.
-- **C-BUD / C-ORY / C-AND** — the Claude session on that adult's seat; acts only for its holder.
+- **Team** — Budi and Rafif only. The repository is Rafif's practice ground for
+  professional development work.
+- **RAF** — Rafif, main developer and game director: does the majority of the work (specs,
+  tuning data, code, art, audio, playtests) and opens one pull request per card. Never
+  types into Claude.
+- **BUD** — Budi, planner and reviewer: plans the timeline and cards, reviews and merges
+  pull requests, repository rules, triage, money, accounts, legal holder, gate approval.
+- **C-BUD** — the Claude session on Budi's seat; supports planning and review, acts only for Budi.
 - **Seat** — one Claude Ultra subscription held by one named adult; accounts are not shared.
-- **Director** — Rafif for game matters; Andy is the producer gate for money and scope.
+- **Director** — Rafif for game matters; Budi is the gate for money and scope.
 
 ## Time and phases
 
@@ -42,7 +44,7 @@ Every term this board uses, one line each. Wordings follow Production Manual
 ## Identifiers
 
 - **FM-nn** — framing decision (FM-01 to FM-12): team, seats, hours, hardware, demo scope,
-  launch, calendar, toolchain, gates, owner codes, document control. Confirmed by Andy at G0.
+  launch, calendar, toolchain, gates, owner codes, document control. Confirmed by Budi at G0.
 - **CD-nn** — editorial consistency decision (CD-01 to CD-32): one rule per conflict between
   chapters; every chapter follows the numbered list.
 - **DN-nnn** — new decision entry in `docs/decisions/decision-log.md`.
@@ -63,7 +65,7 @@ Every term this board uses, one line each. Wordings follow Production Manual
 - **Open questions** — `docs/decisions/open-questions.md`; agents write there when the manual
   is silent or contradicts itself, then stop the card.
 - **Waiver** — skipping a SHOULD with a written reason; hero items and S1/S2 defects need
-  Rafif and Andy together.
+  Rafif and Budi together.
 - **Grey box** — playable blockout without finished art, used to judge the loop.
 - **Vertical slice** — one complete match at final quality in all channels.
 - **Provenance** — one ledger row per generated asset: tool, prompt or reference, licence, holder.

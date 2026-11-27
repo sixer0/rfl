@@ -70,7 +70,7 @@ stop point; the Check line is copied from the ticket's Done when, not reworded.
 ## Decision-log entry — append in `docs/decisions/decision-log.md`
 
 ```markdown
-DN-014 | 2026-11-24 | decider: AND
+DN-014 | 2026-11-24 | decider: BUD
 Heavy hit-stop stays 8 f until the blind A/B before G2.
 Options: keep 8 f (weight pillar) vs 6 f (Panduan range 2–6).
 Evidence: none yet; A/B scheduled into the G2 pack.
@@ -85,13 +85,13 @@ Newest on top. Every entry names decider, options, evidence, choice, revisit con
 ```markdown
 # CR-03 — Drop second livery to a tint variant
 
-Raised: 2026-11-26 by ORY via open-questions
-Triage: S2 · touches scope: yes · needs AND: yes
+Raised: 2026-11-26 by RAF via open-questions
+Triage: S2 · touches scope: yes · needs BUD: yes
 What: ART-002 ships STANDARD + sparring-unit only; the second mirror-match livery
 becomes a colour-tint of the first.
 Why: material and clip budget for the MVP week; cut-list item 2.
 Impact: ART-002 loses one checklist box; census liveries 3 → 2 (+tint).
-Decision: approved — commit `change: CR-03 approved` (AND, D6).
+Decision: approved — commit `change: CR-03 approved` (BUD, D6).
 Status: closed
 ```
 
@@ -127,7 +127,7 @@ clips 13/24 · cues 18/45 · screens 6/16 · strings 90/265 — on track
 pass with conditions (SHOULD only, max 3):
 1. parry lockout feel to be re-checked after 20 more rounds (SHOULD)
 
-Approver: Andy, commit `gate: G1 approved` · Director co-sign: Rafif
+Approver: Budi, commit `gate: G1 approved` · Director co-sign: Rafif
 Next: G2 at D12 — vertical slice; blind hit-stop A/B lands here.
 ```
 
@@ -148,7 +148,7 @@ Every generated or bought file gets exactly one row; licence never empty.
 Progress — generated 2026-11-27T07:00Z by tools/progress.sh — do not edit by hand
 
 Cards: done 11 · in-progress 3 · blocked 1 · todo 35
-Blocked: C-0012 (waiting CR-03 decision by AND)
+Blocked: C-0012 (waiting CR-03 decision by BUD)
 Week target: menu layout + training mode with all base mechanics
 Checklist boxes ticked: 84 of 231
 ```

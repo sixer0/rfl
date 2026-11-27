@@ -4,13 +4,25 @@ Companion board for the RFL Production Manual (`002/GSP/KT-XI-2026 Rev A`, Editi
 21 Nov 2026). The manual is binding; this repo holds the schedule, the ticket breakdown
 and the working docs derived from it. The PDF sits at the repo root as the source of truth.
 
+## Who works here
+
+This repository is a practice project for familiarising Rafif with professional
+development work. The team is two people, no one else:
+
+- **Rafif (RAF)** does the majority of the work: specs, tuning, code, art, audio and
+  playtests, one pull request per card.
+- **Budi (BUD)** plans the work timeline and the cards, reviews every pull request and
+  manages main (merges, gates).
+
+Roles in full: [docs/WORKING-RULES.md](docs/WORKING-RULES.md).
+
 ## Current milestone — MVP week (from 24 Nov 2026)
 
 Deliver the **game menu layout** and a **training mode** that exercises every base
 mechanic: health, stamina, block, parry, sidestep/dash, hit-stop, pushback, part damage,
 groggy, OVERLOAD, juggle cap, throw, submission, corner break, round timer with
-carry-over. Versus stays a stub until the MVP review passes. Assignees are intentionally
-blank; they are filled at the Monday stand-up.
+carry-over. Versus stays a stub until the MVP review passes. Rafif builds; Budi plans the
+order and reviews. Assignees are filled when Budi sequences the cards.
 
 ## Start here
 
@@ -30,10 +42,10 @@ blank; they are filled at the Monday stand-up.
 
 | Folder | Holds | Lead |
 |---|---|---|
-| `art/` | Audio-visual: body, damage visuals, clips, arena, VFX, UI art, audio cues | Ory (ORY) |
-| `story/` | Specs and tuning data: pitch, move list, fight rules, tuning set, training-mode spec, copy | Rafif (RAF) |
-| `apps/` | Engineering: skeleton, simulation core, combat systems, training mode, menus, HUD, CI, builds | Budi (BUD) |
-| `docs/` | Timeline, standards, glossary, cards, decisions, evidence packs, provenance index | Budi (BUD), Andy (AND) for gates |
+| `art/` | Audio-visual: body, damage visuals, clips, arena, VFX, UI art, audio cues | Rafif (RAF), reviewed by Budi |
+| `story/` | Specs and tuning data: pitch, move list, fight rules, tuning set, training-mode spec, copy | Rafif (RAF), reviewed by Budi |
+| `apps/` | Engineering: skeleton, simulation core, combat systems, training mode, menus, HUD, CI, builds | Rafif (RAF), reviewed by Budi |
+| `docs/` | Timeline, standards, glossary, cards, decisions, evidence packs, provenance index | Budi (BUD), gates included |
 
 Each folder carries one `TICKETS.md`: numbered tickets, each with its own work checklist
 (one box per line) and an empty `Assignee:` field. The canonical repository tree lives in
@@ -53,5 +65,7 @@ Full rules: `docs/WORKING-RULES.md`. Vocabulary: `docs/GLOSSARY.md`.
 
 ## Repository pair
 
-`rfl` is the upstream repo; `swarm` is its fork for in-flight branches. Push working
-branches to `swarm`, open pull requests from there into `rfl`. Never force-push `rfl` main.
+`rfl` is the team repo: Rafif pushes his branches here and opens pull requests into
+`rfl` main, which only Budi as admin merges. Never force-push `rfl` main. `swarm` is for
+information only: it is worked exclusively by the agent swarm as a benchmark against the
+team's output, and the team never pushes or merges there. Details: `docs/GIT-WORKFLOW.md`.
