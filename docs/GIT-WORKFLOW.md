@@ -104,7 +104,7 @@ Check: tools/run-tests.sh -> EditMode 214 passed, determinism hash equal on both
 - `main` is protected by the `protect-main` ruleset: developers open pull requests but
   cannot merge them or push to `main`; only the repository admin (Budi, `sixer0`) merges.
 - Body per the STRUCTURE.md sample: closes-card line, bullets of what changed, evidence
-  block quoting checks, reviewer name (Budi).
+  block quoting checks, the pair agent used (tool and model), reviewer name (Budi).
 - One PR per card; split oversized PRs before review.
 - Rafif authors the pull request; Budi reviews line by line; behaviour not named by the card is rejected at
   review (rule 9).

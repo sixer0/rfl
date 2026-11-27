@@ -7,9 +7,13 @@ Every term this board uses, one line each. Wordings follow Production Manual
 
 - **Team** — Budi and Rafif only. The repository is Rafif's practice ground for
   professional development work.
-- **RAF** — Rafif, main developer trainee and game director: does the majority of the work (specs,
-  tuning data, code, art, audio, playtests) and opens one pull request per card. Never
-  types into Claude.
+- **RAF** — Rafif, main developer trainee, AI engineer and game director: does the majority
+  of the work (specs, tuning data, code, art, audio, playtests) by pair programming with
+  his chosen AI agent, and opens one pull request per card. Accountable for all of it.
+- **AI-RAF** — Rafif's pair agent: any AI coding agent he chooses, on his own account;
+  assists only, never accountable.
+- **Pair programming** — Rafif drives and decides; his agent proposes; Rafif reviews every
+  diff before it enters a commit.
 - **BUD** — Budi, planner and reviewer: plans the timeline and cards, reviews and merges
   pull requests, repository rules, triage, money, accounts, legal holder, gate approval.
 - **C-BUD** — the Claude session on Budi's seat; supports planning and review, acts only for Budi.

@@ -96,5 +96,5 @@ Budi and Rafif only, so they hold only as a reference until Budi replans the cap
 | # | Decision | Default | Needed by |
 |---|---|---|---|
 | 1 | Who holds Steam, accounts, IP | Budi names the holder | D−28 |
-| 2 | Who holds the Claude seat | Budi, in his own name; never Rafif | D−28 |
+| 2 | Who holds which AI seat | Budi holds C-BUD in his own name; Rafif chooses his own pair agent on his own account | D−28 |
 | 3 | Scope, levers, pre-approved cuts | D30 demo, L1–L3, cuts 1–5 | D−21 |
