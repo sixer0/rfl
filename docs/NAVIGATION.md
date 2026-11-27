@@ -23,7 +23,7 @@ the only entry point; this file is the map behind it. Binding for humans and Cla
 | Work to do this week | `<area>/TICKETS.md` | ART-, STO-, APP-, DOC-nnn |
 | One ticket's running state | `docs/cards/C-nnnn.md` | zero-padded four digits |
 | How code must look | `docs/CODING-STANDARD.md` | sections by layer |
-| How work moves, roles, hours | `docs/WORKING-RULES.md` | owner codes RAF/ORY/BUD/AND |
+| How work moves, roles, hours | `docs/WORKING-RULES.md` | owner codes RAF/BUD |
 | Non-negotiable process rules | `docs/SDLC.md` | numbered rules 1–23 |
 | How to commit, branch, push, merge, tag | `docs/GIT-WORKFLOW.md` | sections by action |
 | Artifact templates with samples | `docs/STRUCTURE.md` | one section per artifact |
@@ -43,11 +43,9 @@ the only entry point; this file is the map behind it. Binding for humans and Cla
 
 | Reader | Read first | Then, by D−10 | Open daily |
 |---|---|---|---|
-| Rafif | Chapters 1, 2, 3, 5 | 6, 9, 12, 14, 17, 20, 21 | 14 (master schedule), 17 |
-| Ory | Chapters 1, 2, 5, 6 | 8, 11, 18, 19, 20, 26 | 18, 19, Annex D |
-| Budi | Chapters 1, 2, 4, 5, 13 | Parts II, III, IV in full | 14, 15, 22 |
-| Andy | Sections 1.7–1.8, chapters 2, 5 | 6, 10, 24, 25, 29 | 29, Annex G |
-| Claude seats | Section 1.2, chapter 2 | only the chapter named on the card | the card's chapter, Annex B |
+| Rafif | Chapters 1, 2, 3, 5, 6 | 6, 8, 9, 11, 12, 14, 17, 18, 19, 20, 21, 26 | 14 (master schedule), 17, 18, 19 |
+| Budi | Chapters 1, 2, 4, 5, 13, sections 1.7–1.8 | Parts II, III, IV in full; 10, 24, 25, 29 | 14, 15, 22, 29 |
+| Claude seat (Budi's) | Section 1.2, chapter 2 | only the chapter named on the card | the card's chapter, Annex B |
 
 Chapter numbers refer to files in `docs/manual/`; the manual itself is the source, this
 table mirrors its Table 1.5.
