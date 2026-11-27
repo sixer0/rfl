@@ -36,6 +36,8 @@ the only entry point; this file is the map behind it. Binding for humans and Cla
 | Minor review findings to fix later | `docs/state/backlog.md` | one bullet per finding, with file:line |
 | Asset census and licences | `asset_src/ledger.csv`, `asset_src/Art/Generated/PROVENANCE.md` | AST ids |
 | Fight values | `asset_src/data/tuning.json`, `asset_src/data/moves.csv` | one value per field |
+| Unity version, packages, project settings | `ProjectSettings/`, `Packages/manifest.json` | Unity 6.3 LTS (6000.3) |
+| Code by assembly | `Assets/RFL/Sim/`, `Data/`, `Game/`, `Editor/`, `Tests/` | one `.asmdef` per folder |
 | Manual chapter text | `docs/manual/NN-chapter-name.md` | file number = chapter number |
 | Current mission folder | `docs/.active-mission` | one line: mission id |
 
