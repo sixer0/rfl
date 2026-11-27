@@ -1,0 +1,13 @@
+# Unity YAML merges as text
+*.unity   text merge=unityyamlmerge eol=lf
+*.prefab  text merge=unityyamlmerge eol=lf
+*.asset   text merge=unityyamlmerge eol=lf
+*.mat     text merge=unityyamlmerge eol=lf
+*.meta    text eol=lf
+*.cs      text diff=csharp eol=lf
+*.asmdef  text eol=lf
+*.uxml    text eol=lf
+*.uss     text eol=lf
+*.tss     text eol=lf
+*.csv     text eol=lf
+# Binary rules (Git LFS) wait for Budi's art and LFS decision; no binaries ship yet.
